@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/simteamq/Desktop/SEAL/pcl_test
+CMAKE_SOURCE_DIR = /home/simteamq/Desktop/SEAL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/simteamq/Desktop/SEAL/pcl_test/build
+CMAKE_BINARY_DIR = /home/simteamq/Desktop/SEAL/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/pcl_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/simteamq/Desktop/SEAL/pcl_test/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cpp.o -c /home/simteamq/Desktop/SEAL/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/pcl_test/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/pcl_test/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/interactive_icp.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/interactive_icp.cpp.o: ../src/interactive_icp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/pcl_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/interactive_icp.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/interactive_icp.cpp.o -c /home/simteamq/Desktop/SEAL/pcl_test/src/interactive_icp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/interactive_icp.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/interactive_icp.cpp.o -c /home/simteamq/Desktop/SEAL/src/interactive_icp.cpp
 
 CMakeFiles/main.dir/src/interactive_icp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/interactive_icp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/pcl_test/src/interactive_icp.cpp > CMakeFiles/main.dir/src/interactive_icp.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/src/interactive_icp.cpp > CMakeFiles/main.dir/src/interactive_icp.cpp.i
 
 CMakeFiles/main.dir/src/interactive_icp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/interactive_icp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/pcl_test/src/interactive_icp.cpp -o CMakeFiles/main.dir/src/interactive_icp.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/src/interactive_icp.cpp -o CMakeFiles/main.dir/src/interactive_icp.cpp.s
 
 CMakeFiles/main.dir/src/pcl_test.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/pcl_test.cpp.o: ../src/pcl_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/pcl_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/pcl_test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/pcl_test.cpp.o -c /home/simteamq/Desktop/SEAL/pcl_test/src/pcl_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/pcl_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/pcl_test.cpp.o -c /home/simteamq/Desktop/SEAL/src/pcl_test.cpp
 
 CMakeFiles/main.dir/src/pcl_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/pcl_test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/pcl_test/src/pcl_test.cpp > CMakeFiles/main.dir/src/pcl_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/src/pcl_test.cpp > CMakeFiles/main.dir/src/pcl_test.cpp.i
 
 CMakeFiles/main.dir/src/pcl_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/pcl_test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/pcl_test/src/pcl_test.cpp -o CMakeFiles/main.dir/src/pcl_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/src/pcl_test.cpp -o CMakeFiles/main.dir/src/pcl_test.cpp.s
 
 CMakeFiles/main.dir/src/csv_functions.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/csv_functions.cpp.o: ../src/csv_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/pcl_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/csv_functions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/csv_functions.cpp.o -c /home/simteamq/Desktop/SEAL/pcl_test/src/csv_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/simteamq/Desktop/SEAL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/csv_functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/csv_functions.cpp.o -c /home/simteamq/Desktop/SEAL/src/csv_functions.cpp
 
 CMakeFiles/main.dir/src/csv_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/csv_functions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/pcl_test/src/csv_functions.cpp > CMakeFiles/main.dir/src/csv_functions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/simteamq/Desktop/SEAL/src/csv_functions.cpp > CMakeFiles/main.dir/src/csv_functions.cpp.i
 
 CMakeFiles/main.dir/src/csv_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/csv_functions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/pcl_test/src/csv_functions.cpp -o CMakeFiles/main.dir/src/csv_functions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/simteamq/Desktop/SEAL/src/csv_functions.cpp -o CMakeFiles/main.dir/src/csv_functions.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -216,7 +216,7 @@ main: /usr/lib/x86_64-linux-gnu/libX11.so
 main: /usr/lib/x86_64-linux-gnu/libXext.so
 main: /usr/lib/x86_64-linux-gnu/libXt.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/simteamq/Desktop/SEAL/pcl_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/simteamq/Desktop/SEAL/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -229,6 +229,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/simteamq/Desktop/SEAL/pcl_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/simteamq/Desktop/SEAL/pcl_test /home/simteamq/Desktop/SEAL/pcl_test /home/simteamq/Desktop/SEAL/pcl_test/build /home/simteamq/Desktop/SEAL/pcl_test/build /home/simteamq/Desktop/SEAL/pcl_test/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/simteamq/Desktop/SEAL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/simteamq/Desktop/SEAL /home/simteamq/Desktop/SEAL /home/simteamq/Desktop/SEAL/build /home/simteamq/Desktop/SEAL/build /home/simteamq/Desktop/SEAL/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
