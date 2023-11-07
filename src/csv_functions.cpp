@@ -2,7 +2,7 @@
 #include <string>
 #include <sstream>
 #include <fstream>
-#include "interactive_icp.h"
+#include <interactive_icp.h>
 #include <vector>
 
 std::vector<std::vector<std::string>> read_csv(std::string fname){

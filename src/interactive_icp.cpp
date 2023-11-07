@@ -7,6 +7,7 @@
 #include <pcl/visualization/cloud_viewer.h>
 #include <pcl/point_cloud.h>
 #include <pcl/console/time.h>   // TicToc
+#include <interactive_icp.h>
 
 typedef pcl::PointXYZ PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
