@@ -65,7 +65,9 @@ int main(int argc, char* argv[]){
     {
     std::cout << "ICP did not converge." << std::endl;
         }
-    
+    pcl::io::savePCDFileASCII ("test_pcd.pcd", final);
+    std::cerr << "Saved " << final.size () << " data points to test_pcd.pcd." << std::endl;
+
     //vizualization before algoritm
     // simple_viz_of_2_clouds(cloud1, cloud2);
     // std::cout<< "Applying ICP Algo:"<<std::endl;
