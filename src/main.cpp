@@ -46,11 +46,31 @@ int main(int argc, char* argv[]){
     transformation_matrix (2, 3) = -centroid1.at(2);
     print4x4Matrix (transformation_matrix);
     pcl::transformPointCloud(*cloud1, *cloud1,transformation_matrix);
+    
+    pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
+    icp.setMaximumIterations(50);
+    icp.setInputSource(cloud2);
+    icp.setInputTarget(cloud1);
+
+    pcl::PointCloud<pcl::PointXYZ> final;
+    icp.align(final);
+    if (icp.hasConverged())
+        {
+    std::cout << "ICP converged." << std::endl
+                << "The score is " << icp.getFitnessScore() << std::endl;
+    std::cout << "Transformation matrix:" << std::endl;
+    std::cout << icp.getFinalTransformation() << std::endl;
+    }
+    else
+    {
+    std::cout << "ICP did not converge." << std::endl;
+        }
+    
     //vizualization before algoritm
-    simple_viz_of_2_clouds(cloud1, cloud2);
-    std::cout<< "Applying ICP Algo:"<<std::endl;
-    ICP_algo(cloud1, cloud2, transformation_matrix);
-    simple_viz_of_2_clouds(cloud1, cloud2);
+    // simple_viz_of_2_clouds(cloud1, cloud2);
+    // std::cout<< "Applying ICP Algo:"<<std::endl;
+    // ICP_algo(cloud1, cloud2, transformation_matrix);
+    // simple_viz_of_2_clouds(cloud1, cloud2);
     
     
 

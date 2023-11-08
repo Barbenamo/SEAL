@@ -56,16 +56,29 @@ CMAKE_BINARY_DIR = /home/simteamq/Desktop/SEAL/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
-.PHONY : rebuild_cache/fast
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,6 +90,50 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ROS_comms
+
+# Build rule for target.
+ROS_comms: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ROS_comms
+.PHONY : ROS_comms
+
+# fast build rule for target.
+ROS_comms/fast:
+	$(MAKE) -f CMakeFiles/ROS_comms.dir/build.make CMakeFiles/ROS_comms.dir/build
+.PHONY : ROS_comms/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -122,6 +192,59 @@ main: cmake_check_build_system
 main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
+
+#=============================================================================
+# Target rules for targets named main_uninstall
+
+# Build rule for target.
+main_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main_uninstall
+.PHONY : main_uninstall
+
+# fast build rule for target.
+main_uninstall/fast:
+	$(MAKE) -f CMakeFiles/main_uninstall.dir/build.make CMakeFiles/main_uninstall.dir/build
+.PHONY : main_uninstall/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+src/ROS_comms.o: src/ROS_comms.cpp.o
+
+.PHONY : src/ROS_comms.o
+
+# target to build an object file
+src/ROS_comms.cpp.o:
+	$(MAKE) -f CMakeFiles/ROS_comms.dir/build.make CMakeFiles/ROS_comms.dir/src/ROS_comms.cpp.o
+.PHONY : src/ROS_comms.cpp.o
+
+src/ROS_comms.i: src/ROS_comms.cpp.i
+
+.PHONY : src/ROS_comms.i
+
+# target to preprocess a source file
+src/ROS_comms.cpp.i:
+	$(MAKE) -f CMakeFiles/ROS_comms.dir/build.make CMakeFiles/ROS_comms.dir/src/ROS_comms.cpp.i
+.PHONY : src/ROS_comms.cpp.i
+
+src/ROS_comms.s: src/ROS_comms.cpp.s
+
+.PHONY : src/ROS_comms.s
+
+# target to generate assembly for a file
+src/ROS_comms.cpp.s:
+	$(MAKE) -f CMakeFiles/ROS_comms.dir/build.make CMakeFiles/ROS_comms.dir/src/ROS_comms.cpp.s
+.PHONY : src/ROS_comms.cpp.s
 
 src/csv_functions.o: src/csv_functions.cpp.o
 
@@ -237,9 +360,20 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
+	@echo "... install/strip"
+	@echo "... install/local"
 	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... ROS_comms"
 	@echo "... main"
+	@echo "... main_uninstall"
+	@echo "... uninstall"
+	@echo "... src/ROS_comms.o"
+	@echo "... src/ROS_comms.i"
+	@echo "... src/ROS_comms.s"
 	@echo "... src/csv_functions.o"
 	@echo "... src/csv_functions.i"
 	@echo "... src/csv_functions.s"
