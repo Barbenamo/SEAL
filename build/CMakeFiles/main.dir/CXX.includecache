@@ -43,6 +43,8 @@ stdlib.h
 -
 sstream
 -
+typeinfo
+-
 fstream
 -
 vector

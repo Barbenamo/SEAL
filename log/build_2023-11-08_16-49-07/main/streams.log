@@ -1,0 +1,28 @@
+[0.331s] Invoking command in '/home/simteamq/Desktop/SEAL/build/main': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/build/main -- -j12 -l12
+[0.406s] [35m[1mScanning dependencies of target ROS_comms[0m
+[0.441s] [ 71%] Built target main
+[0.497s] [ 85%] [32mBuilding CXX object CMakeFiles/ROS_comms.dir/src/ROS_comms.cpp.o[0m
+[28.637s] [100%] [32m[1mLinking CXX executable ROS_comms[0m
+[30.867s] [100%] Built target ROS_comms
+[30.883s] Invoked command in '/home/simteamq/Desktop/SEAL/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/build/main -- -j12 -l12
+[30.961s] Invoking command in '/home/simteamq/Desktop/SEAL/build/main': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/build/main
+[30.976s] -- Install configuration: ""
+[30.977s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/lib/main/main
+[30.977s] -- Installing: /home/simteamq/Desktop/SEAL/install/main/lib/main/ROS_comms
+[30.986s] -- Set runtime path of "/home/simteamq/Desktop/SEAL/install/main/lib/main/ROS_comms" to ""
+[30.987s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/ament_index/resource_index/package_run_dependencies/main
+[30.987s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/ament_index/resource_index/parent_prefix_path/main
+[30.987s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/environment/ament_prefix_path.sh
+[30.987s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/environment/ament_prefix_path.dsv
+[30.987s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/environment/path.sh
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/environment/path.dsv
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/local_setup.bash
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/local_setup.sh
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/local_setup.zsh
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/local_setup.dsv
+[30.988s] -- Installing: /home/simteamq/Desktop/SEAL/install/main/share/main/package.dsv
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/ament_index/resource_index/packages/main
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/cmake/mainConfig.cmake
+[30.988s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/cmake/mainConfig-version.cmake
+[30.989s] -- Up-to-date: /home/simteamq/Desktop/SEAL/install/main/share/main/package.xml
+[30.991s] Invoked command in '/home/simteamq/Desktop/SEAL/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/build/main

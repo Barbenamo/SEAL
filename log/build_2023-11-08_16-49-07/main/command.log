@@ -1,0 +1,4 @@
+Invoking command in '/home/simteamq/Desktop/SEAL/build/main': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/build/main -- -j12 -l12
+Invoked command in '/home/simteamq/Desktop/SEAL/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/build/main -- -j12 -l12
+Invoking command in '/home/simteamq/Desktop/SEAL/build/main': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/build/main
+Invoked command in '/home/simteamq/Desktop/SEAL/build/main' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/build/main

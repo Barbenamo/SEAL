@@ -29,6 +29,8 @@ private:
 
     rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_;
     pcl::PointCloud<pcl::PointXYZ>::Ptr map_;
+    rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr map_publisher_;
+
     // ... other ROS and PCL related member variables ...
 };
 

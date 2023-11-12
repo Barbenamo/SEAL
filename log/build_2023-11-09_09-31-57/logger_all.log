@@ -1,0 +1,108 @@
+[5.085s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.086s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4eed6b5880>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4eed6b5880>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4eed6aa1c0>)
+[5.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.358s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simteamq/Desktop/SEAL'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.382s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'main'
+[5.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.144s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[6.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_args' from command line to 'None'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_target' from command line to 'None'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_clean_cache' from command line to 'False'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_clean_first' from command line to 'False'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'cmake_force_configure' from command line to 'False'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'ament_cmake_args' from command line to 'None'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'catkin_cmake_args' from command line to 'None'
+[6.451s] Level 5:colcon.colcon_core.verb:set package 'main' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.451s] DEBUG:colcon.colcon_core.verb:Building package 'main' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simteamq/Desktop/SEAL/build/main', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simteamq/Desktop/SEAL/install/main', 'merge_install': False, 'path': '/home/simteamq/Desktop/SEAL', 'symlink_install': False, 'test_result_base': None}
+[6.572s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.658s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/simteamq/Desktop/SEAL' with build type 'ament_cmake'
+[6.658s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/simteamq/Desktop/SEAL'
+[6.760s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.948s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': [Errno 17] File exists: '/home/simteamq/Desktop/SEAL/build/main'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 306, in get_command_environment
+    return await extension.generate_command_environment(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 148, in generate_command_environment
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 49, in expand_template
+    os.makedirs(str(destination_path.parent), exist_ok=True)
+  File "/usr/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/simteamq/Desktop/SEAL/build/main'
+
+[6.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'bash' for command environment
+[6.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'zsh' for command environment
+[6.948s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[6.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(main)
+[7.051s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/install/main' for CMake module files
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/install/main' for CMake config files
+[7.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('main', 'cmake_prefix_path')
+[7.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/install/main/share/main/hook/cmake_prefix_path.ps1'
+[7.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simteamq/Desktop/SEAL/install/main/share/main/hook/cmake_prefix_path.dsv'
+[7.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/install/main/share/main/hook/cmake_prefix_path.sh'
+[7.157s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/install/main/lib'
+[7.157s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/install/main/bin'
+[7.157s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/install/main/lib/pkgconfig/main.pc'
+[7.157s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/install/main/lib/python3.8/site-packages'
+[7.158s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/install/main/bin'
+[7.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/install/main/share/main/package.ps1'
+[7.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simteamq/Desktop/SEAL/install/main/share/main/package.dsv'
+[7.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/install/main/share/main/package.sh'
+[7.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/install/main/share/main/package.bash'
+[7.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/install/main/share/main/package.zsh'
+[7.265s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simteamq/Desktop/SEAL/install/main/share/colcon-core/packages/main)
+[7.267s] ERROR:colcon.colcon_core.event_reactor:Exception in event handler extension 'store_result': [Errno 17] File exists: '/home/simteamq/Desktop/SEAL/build/main'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/event_reactor.py", line 78, in _notify_observers
+    retval = observer(event)
+  File "/usr/lib/python3/dist-packages/colcon_package_selection/package_selection/previous/event_handler.py", line 53, in __call__
+    set_result(job.task_context.args.build_base, verb_name, result)
+  File "/usr/lib/python3/dist-packages/colcon_package_selection/package_selection/previous/__init__.py", line 35, in set_result
+    path.parent.mkdir(parents=True, exist_ok=True)
+  File "/usr/lib/python3.8/pathlib.py", line 1288, in mkdir
+    self._accessor.mkdir(self, mode)
+FileExistsError: [Errno 17] File exists: '/home/simteamq/Desktop/SEAL/build/main'
+
+[7.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[7.276s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.428s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.428s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/install/local_setup.ps1'
+[7.597s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simteamq/Desktop/SEAL/install/_local_setup_util_ps1.py'
+[7.601s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/install/setup.ps1'
+[7.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/install/local_setup.sh'
+[7.719s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simteamq/Desktop/SEAL/install/_local_setup_util_sh.py'
+[7.720s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/install/setup.sh'
+[7.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/install/local_setup.bash'
+[7.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/install/setup.bash'
+[7.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/install/local_setup.zsh'
+[7.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/install/setup.zsh'

@@ -2,6 +2,7 @@
 #include <string>
 #include <stdlib.h>
 #include <sstream>
+#include <typeinfo>
 #include <fstream>
 #include <vector>
 #include <pcl/io/pcd_io.h>
@@ -60,6 +61,11 @@ int main(int argc, char* argv[]){
                 << "The score is " << icp.getFitnessScore() << std::endl;
     std::cout << "Transformation matrix:" << std::endl;
     std::cout << icp.getFinalTransformation() << std::endl;
+    std::cout << typeid(icp.getFinalTransformation()).name() << std::endl;
+    Eigen::Matrix4d track;
+    std::cout << typeid(track).name() << std::endl;
+    
+    
     }
     else
     {

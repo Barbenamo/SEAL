@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000983] (main) JobQueued: {'identifier': 'main', 'dependencies': OrderedDict()}
+[0.001109] (main) JobStarted: {'identifier': 'main'}
+[0.099401] (-) TimerEvent: {}
+[0.200459] (-) TimerEvent: {}
+[0.302137] (-) TimerEvent: {}
+[0.403326] (-) TimerEvent: {}
+[0.504059] (-) TimerEvent: {}
+[0.604485] (main) JobEnded: {'identifier': 'main', 'rc': 1}
+[0.606775] (-) TimerEvent: {}
+[0.614974] (-) EventReactorShutdown: {}
