@@ -1,0 +1,10 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[01m[K/home/simteamq/Desktop/SEAL/localization2/src/odom_subscriber.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kodom_subsriber.hpp: No such file or directory
+    1 | #include [01;31m[K"odom_subsriber.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/odom_subscriber.dir/build.make:63: CMakeFiles/odom_subscriber.dir/src/odom_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/odom_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

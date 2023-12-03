@@ -1,0 +1,114 @@
+[0.304s] Invoking command in '/home/simteamq/Desktop/SEAL/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/localization -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/localization/install/localization
+[0.331s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.367s] -- Using PYTHON_EXECUTABLE: /home/simteamq/anaconda3/bin/python3
+[0.676s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.851s] -- The imported target "vtkParseOGLExt" references the file
+[0.851s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.852s] but this file does not exist.  Possible reasons include:
+[0.852s] * The file was deleted, renamed, or moved to another location.
+[0.852s] * An install or uninstall procedure did not complete successfully.
+[0.852s] * The installation package was faulty and contained
+[0.852s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.853s] but not all the files it references.
+[0.853s] 
+[0.853s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.853s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.854s] but this file does not exist.  Possible reasons include:
+[0.854s] * The file was deleted, renamed, or moved to another location.
+[0.854s] * An install or uninstall procedure did not complete successfully.
+[0.854s] * The installation package was faulty and contained
+[0.855s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.855s] but not all the files it references.
+[0.855s] 
+[0.855s] -- The imported target "vtk" references the file
+[0.855s]    "/usr/bin/vtk"
+[0.855s] but this file does not exist.  Possible reasons include:
+[0.855s] * The file was deleted, renamed, or moved to another location.
+[0.856s] * An install or uninstall procedure did not complete successfully.
+[0.856s] * The installation package was faulty and contained
+[0.856s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.856s] but not all the files it references.
+[0.856s] 
+[0.856s] -- The imported target "pvtk" references the file
+[0.857s]    "/usr/bin/pvtk"
+[0.857s] but this file does not exist.  Possible reasons include:
+[0.857s] * The file was deleted, renamed, or moved to another location.
+[0.857s] * An install or uninstall procedure did not complete successfully.
+[0.857s] * The installation package was faulty and contained
+[0.857s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.858s] but not all the files it references.
+[0.858s] 
+[0.885s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.895s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.895s] ** WARNING ** io features related to pcap will be disabled
+[0.895s] ** WARNING ** io features related to png will be disabled
+[0.913s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.922s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.930s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[0.949s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.959s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[0.974s] -- looking for PCL_COMMON
+[0.975s] -- looking for PCL_KDTREE
+[0.976s] -- looking for PCL_OCTREE
+[0.977s] -- looking for PCL_SEARCH
+[0.977s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.978s] -- looking for PCL_FILTERS
+[0.979s] -- looking for PCL_2D
+[0.980s] -- looking for PCL_GEOMETRY
+[0.980s] -- looking for PCL_IO
+[0.981s] -- looking for PCL_FEATURES
+[0.982s] -- looking for PCL_ML
+[0.983s] -- looking for PCL_SEGMENTATION
+[0.984s] -- looking for PCL_VISUALIZATION
+[0.985s] -- looking for PCL_SURFACE
+[0.985s] -- looking for PCL_REGISTRATION
+[0.986s] -- looking for PCL_KEYPOINTS
+[0.987s] -- looking for PCL_TRACKING
+[0.988s] -- looking for PCL_RECOGNITION
+[0.989s] -- looking for PCL_STEREO
+[0.990s] -- looking for PCL_APPS
+[0.992s] -- looking for PCL_IN_HAND_SCANNER
+[0.992s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.993s] -- looking for PCL_OUTOFCORE
+[0.994s] -- looking for PCL_PEOPLE
+[0.996s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.001s] CMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[1.001s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[1.001s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[1.001s]   set the policy and suppress this warning.
+[1.002s] 
+[1.002s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[1.002s]   Since the policy is not set the OLD behavior will be used.
+[1.002s] Call Stack (most recent call first):
+[1.002s]   /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[1.002s]   /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[1.002s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.003s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[1.003s]   /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.003s]   /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.003s]   /opt/ros/foxy/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.003s]   /opt/ros/foxy/share/nav_msgs/cmake/nav_msgsConfig.cmake:41 (include)
+[1.003s]   CMakeLists.txt:8 (find_package)
+[1.003s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.004s] 
+[1.004s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[1.004s]   if given arguments:
+[1.004s] 
+[1.004s]     "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"
+[1.004s] 
+[1.004s]   Unknown arguments specified
+[1.005s] Call Stack (most recent call first):
+[1.005s]   /opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)
+[1.005s]   /opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+[1.005s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.005s]   /opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+[1.005s]   /opt/ros/foxy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.005s]   /opt/ros/foxy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)
+[1.006s]   /opt/ros/foxy/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.006s]   /opt/ros/foxy/share/nav_msgs/cmake/nav_msgsConfig.cmake:41 (include)
+[1.006s]   CMakeLists.txt:8 (find_package)
+[1.006s] 
+[1.006s] 
+[1.006s] -- Configuring incomplete, errors occurred!
+[1.006s] See also "/home/simteamq/Desktop/SEAL/localization/build/localization/CMakeFiles/CMakeOutput.log".
+[1.011s] Invoked command in '/home/simteamq/Desktop/SEAL/localization/build/localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/localization -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/localization/install/localization

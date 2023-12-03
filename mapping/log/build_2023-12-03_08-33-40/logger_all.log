@@ -1,0 +1,106 @@
+[3.917s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.918s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc629d75280>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc629d75280>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc629d70ac0>)
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.083s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.083s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simteamq/Desktop/SEAL/mapping'
+[4.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.099s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'mapping'
+[4.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.556s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.737s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/simteamq/Desktop/SEAL/install
+[4.826s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[4.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.089s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to 'None'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[5.090s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.090s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simteamq/Desktop/SEAL/mapping/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simteamq/Desktop/SEAL/mapping/install/mapping', 'merge_install': False, 'path': '/home/simteamq/Desktop/SEAL/mapping', 'symlink_install': False, 'test_result_base': None}
+[5.162s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/simteamq/Desktop/SEAL/mapping' with build type 'ament_cmake'
+[5.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/simteamq/Desktop/SEAL/mapping'
+[5.327s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/mapping -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/mapping/install/mapping
+[10.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/mapping -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/mapping/install/mapping
+[10.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/mapping/build/mapping -- -j12 -l12
+[37.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/mapping/build/mapping -- -j12 -l12
+[37.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/mapping/build/mapping
+[37.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[37.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/mapping/build/mapping
+[37.851s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping' for CMake module files
+[37.852s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping' for CMake config files
+[37.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[37.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[37.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[37.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[37.934s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/lib'
+[37.934s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/bin'
+[37.934s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/lib/pkgconfig/mapping.pc'
+[37.934s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/lib/python3.8/site-packages'
+[37.934s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/bin'
+[38.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.ps1'
+[38.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.dsv'
+[38.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.sh'
+[38.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.bash'
+[38.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.zsh'
+[38.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/colcon-core/packages/mapping)
+[38.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[38.252s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping' for CMake module files
+[38.253s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping' for CMake config files
+[38.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[38.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[38.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[38.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[38.341s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/lib'
+[38.341s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/bin'
+[38.341s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/lib/pkgconfig/mapping.pc'
+[38.341s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/lib/python3.8/site-packages'
+[38.342s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/mapping/install/mapping/bin'
+[38.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.ps1'
+[38.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.dsv'
+[38.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.sh'
+[38.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.bash'
+[38.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.zsh'
+[38.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simteamq/Desktop/SEAL/mapping/install/mapping/share/colcon-core/packages/mapping)
+[38.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[38.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[38.431s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[38.432s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[38.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[38.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[38.524s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[38.556s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[38.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/mapping/install/local_setup.ps1'
+[38.658s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simteamq/Desktop/SEAL/mapping/install/_local_setup_util_ps1.py'
+[38.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/mapping/install/setup.ps1'
+[38.740s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/mapping/install/local_setup.sh'
+[38.740s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simteamq/Desktop/SEAL/mapping/install/_local_setup_util_sh.py'
+[38.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/mapping/install/setup.sh'
+[38.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/mapping/install/local_setup.bash'
+[38.826s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/mapping/install/setup.bash'
+[38.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/mapping/install/local_setup.zsh'
+[38.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/mapping/install/setup.zsh'

@@ -1,0 +1,172 @@
+[0.363s] Invoking command in '/home/simteamq/Desktop/SEAL/localization2/build/localization2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/localization2 -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/localization2/install/localization2
+[0.449s] -- The C compiler identification is GNU 9.4.0
+[0.534s] -- The CXX compiler identification is GNU 9.4.0
+[0.542s] -- Check for working C compiler: /usr/bin/cc
+[0.658s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.661s] -- Detecting C compiler ABI info
+[0.779s] -- Detecting C compiler ABI info - done
+[0.797s] -- Detecting C compile features
+[0.798s] -- Detecting C compile features - done
+[0.801s] -- Check for working CXX compiler: /usr/bin/c++
+[0.938s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.940s] -- Detecting CXX compiler ABI info
+[1.076s] -- Detecting CXX compiler ABI info - done
+[1.099s] -- Detecting CXX compile features
+[1.099s] -- Detecting CXX compile features - done
+[1.102s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.140s] -- Found PythonInterp: /home/simteamq/anaconda3/bin/python3 (found suitable version "3.11.4", minimum required is "3") 
+[1.140s] -- Using PYTHON_EXECUTABLE: /home/simteamq/anaconda3/bin/python3
+[1.463s] -- Checking for module 'eigen3'
+[1.488s] --   Found eigen3, version 3.3.7
+[1.549s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.549s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.635s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.660s] -- Checking for module 'flann'
+[1.684s] --   Found flann, version 1.9.1
+[1.758s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.847s] -- The imported target "vtkParseOGLExt" references the file
+[1.847s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.848s] but this file does not exist.  Possible reasons include:
+[1.848s] * The file was deleted, renamed, or moved to another location.
+[1.848s] * An install or uninstall procedure did not complete successfully.
+[1.848s] * The installation package was faulty and contained
+[1.848s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.848s] but not all the files it references.
+[1.849s] 
+[1.849s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.849s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.849s] but this file does not exist.  Possible reasons include:
+[1.849s] * The file was deleted, renamed, or moved to another location.
+[1.850s] * An install or uninstall procedure did not complete successfully.
+[1.850s] * The installation package was faulty and contained
+[1.850s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.850s] but not all the files it references.
+[1.850s] 
+[1.851s] -- The imported target "vtk" references the file
+[1.851s]    "/usr/bin/vtk"
+[1.851s] but this file does not exist.  Possible reasons include:
+[1.851s] * The file was deleted, renamed, or moved to another location.
+[1.851s] * An install or uninstall procedure did not complete successfully.
+[1.851s] * The installation package was faulty and contained
+[1.852s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.852s] but not all the files it references.
+[1.852s] 
+[1.852s] -- The imported target "pvtk" references the file
+[1.852s]    "/usr/bin/pvtk"
+[1.852s] but this file does not exist.  Possible reasons include:
+[1.852s] * The file was deleted, renamed, or moved to another location.
+[1.853s] * An install or uninstall procedure did not complete successfully.
+[1.853s] * The installation package was faulty and contained
+[1.853s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.853s] but not all the files it references.
+[1.853s] 
+[1.882s] -- Checking for module 'libusb-1.0'
+[1.908s] --   Found libusb-1.0, version 1.0.23
+[1.979s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.067s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.068s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.168s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.169s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.169s] ** WARNING ** io features related to pcap will be disabled
+[2.169s] ** WARNING ** io features related to png will be disabled
+[2.190s] -- Found libusb-1.0: /usr/include  
+[2.190s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.200s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.212s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.253s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.254s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.267s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.288s] -- looking for PCL_COMMON
+[2.289s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.290s] -- looking for PCL_KDTREE
+[2.291s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.292s] -- looking for PCL_OCTREE
+[2.293s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.294s] -- looking for PCL_SEARCH
+[2.295s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.296s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.297s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.298s] -- looking for PCL_FILTERS
+[2.299s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.300s] -- looking for PCL_2D
+[2.300s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.300s] -- looking for PCL_GEOMETRY
+[2.301s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.301s] -- looking for PCL_IO
+[2.303s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.303s] -- looking for PCL_FEATURES
+[2.305s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.305s] -- looking for PCL_ML
+[2.307s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.307s] -- looking for PCL_SEGMENTATION
+[2.309s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.309s] -- looking for PCL_VISUALIZATION
+[2.311s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.311s] -- looking for PCL_SURFACE
+[2.313s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.314s] -- looking for PCL_REGISTRATION
+[2.315s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.316s] -- looking for PCL_KEYPOINTS
+[2.317s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.318s] -- looking for PCL_TRACKING
+[2.320s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.320s] -- looking for PCL_RECOGNITION
+[2.322s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.323s] -- looking for PCL_STEREO
+[2.324s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.325s] -- looking for PCL_APPS
+[2.326s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.328s] -- looking for PCL_IN_HAND_SCANNER
+[2.328s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.329s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.330s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.330s] -- looking for PCL_OUTOFCORE
+[2.331s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.332s] -- looking for PCL_PEOPLE
+[2.334s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.335s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.10") 
+[2.337s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.378s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.511s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.554s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.926s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.016s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.068s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.070s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.071s] -- Looking for pthread.h
+[3.184s] -- Looking for pthread.h - found
+[3.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.318s] -- Looking for pthread_create in pthreads
+[3.414s] -- Looking for pthread_create in pthreads - not found
+[3.415s] -- Looking for pthread_create in pthread
+[3.534s] -- Looking for pthread_create in pthread - found
+[3.537s] -- Found Threads: TRUE  
+[3.719s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.875s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.876s] -- Configured cppcheck include dirs: /home/simteamq/Desktop/SEAL/localization2/include
+[3.877s] -- Configured cppcheck exclude dirs and/or files: 
+[3.881s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.882s] -- Configured cpplint exclude dirs and/or files: 
+[3.884s] -- Added test 'lint_cmake' to check CMake code style
+[3.890s] -- Added test 'uncrustify' to check C / C++ code style
+[3.890s] -- Configured uncrustify additional arguments: 
+[3.891s] -- Added test 'xmllint' to check XML markup files
+[3.896s] -- Configuring done
+[3.909s] -- Generating done
+[3.912s] -- Build files have been written to: /home/simteamq/Desktop/SEAL/localization2/build/localization2
+[3.928s] Invoked command in '/home/simteamq/Desktop/SEAL/localization2/build/localization2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/localization2 -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/localization2/install/localization2
+[3.933s] Invoking command in '/home/simteamq/Desktop/SEAL/localization2/build/localization2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/localization2/build/localization2 -- -j12 -l12
+[3.998s] [35m[1mScanning dependencies of target odom_subscriber[0m
+[4.017s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_subscriber.dir/src/odom_subscriber.cpp.o[0m
+[4.033s] [01m[K/home/simteamq/Desktop/SEAL/localization2/src/odom_subscriber.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kodom_subsriber.hpp: No such file or directory
+[4.033s]     1 | #include [01;31m[K"odom_subsriber.hpp"[m[K
+[4.033s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.034s] compilation terminated.
+[4.035s] make[2]: *** [CMakeFiles/odom_subscriber.dir/build.make:63: CMakeFiles/odom_subscriber.dir/src/odom_subscriber.cpp.o] Error 1
+[4.035s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/odom_subscriber.dir/all] Error 2
+[4.036s] make: *** [Makefile:141: all] Error 2
+[4.040s] Invoked command in '/home/simteamq/Desktop/SEAL/localization2/build/localization2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/localization2/build/localization2 -- -j12 -l12

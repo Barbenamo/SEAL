@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>main </name>
+  <version>0.0.0</version>
+  <description>My ROS 2 Package for Point Cloud Processing</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>PCL</depend>
+  <depend>eigen3_cmake_module</depend>
+  <depend>ament_cmake</depend>
+  <depend>nav_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,514 @@
+[0.000000] (-) TimerEvent: {}
+[0.000681] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict()}
+[0.000807] (mapping) JobStarted: {'identifier': 'mapping'}
+[0.099689] (-) TimerEvent: {}
+[0.200267] (-) TimerEvent: {}
+[0.301528] (-) TimerEvent: {}
+[0.356809] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'cmake'}
+[0.357593] (mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/simteamq/Desktop/SEAL/mapping', '-DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/mapping/install/mapping'], 'cwd': '/home/simteamq/Desktop/SEAL/mapping/build/mapping', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2695'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL'), ('TERM_PROGRAM_VERSION', '1.84.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4387'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:62579'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2730,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2730'), ('INVOCATION_ID', '3554c03e7d084a4eb946f4c3c01dbb30'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a927a7ff0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/mapping/build/mapping'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/opt/ros/foxy')]), 'shell': False}
+[0.401677] (-) TimerEvent: {}
+[0.476362] (mapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.501825] (-) TimerEvent: {}
+[0.602301] (-) TimerEvent: {}
+[0.604129] (mapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.621785] (mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.702438] (-) TimerEvent: {}
+[0.736485] (mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.739222] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802583] (-) TimerEvent: {}
+[0.858069] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.879611] (mapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.880109] (mapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.885316] (mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.902716] (-) TimerEvent: {}
+[1.003108] (-) TimerEvent: {}
+[1.019436] (mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.022166] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.103263] (-) TimerEvent: {}
+[1.159983] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.186056] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.187182] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.190130] (mapping) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.203404] (-) TimerEvent: {}
+[1.231258] (mapping) StdoutLine: {'line': b'-- Found PythonInterp: /home/simteamq/anaconda3/bin/python3 (found suitable version "3.11.4", minimum required is "3") \n'}
+[1.231548] (mapping) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/simteamq/anaconda3/bin/python3\n'}
+[1.303570] (-) TimerEvent: {}
+[1.404014] (-) TimerEvent: {}
+[1.504489] (-) TimerEvent: {}
+[1.587889] (mapping) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.604615] (-) TimerEvent: {}
+[1.607052] (mapping) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[1.665739] (mapping) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.666293] (mapping) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.704780] (-) TimerEvent: {}
+[1.752692] (mapping) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[1.778932] (mapping) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.800676] (mapping) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.804928] (-) TimerEvent: {}
+[1.876543] (mapping) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.905054] (-) TimerEvent: {}
+[1.966378] (mapping) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.966912] (mapping) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.967143] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.967332] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.967512] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.967687] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.967860] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.968188] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.968370] (mapping) StdoutLine: {'line': b'\n'}
+[1.968543] (mapping) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.968729] (mapping) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.969003] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.969335] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.969620] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.969793] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.969963] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.970132] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.970304] (mapping) StdoutLine: {'line': b'\n'}
+[1.970475] (mapping) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.970647] (mapping) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.970818] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.970989] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.971157] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.971324] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.971491] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.971659] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.971824] (mapping) StdoutLine: {'line': b'\n'}
+[1.971991] (mapping) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.972157] (mapping) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.972326] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.972495] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.972664] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.972833] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.973031] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.973208] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.973376] (mapping) StdoutLine: {'line': b'\n'}
+[2.001365] (mapping) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.005144] (-) TimerEvent: {}
+[2.025272] (mapping) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[2.094762] (mapping) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.105652] (-) TimerEvent: {}
+[2.206864] (-) TimerEvent: {}
+[2.212840] (mapping) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so  \n'}
+[2.213223] (mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.306999] (-) TimerEvent: {}
+[2.314393] (mapping) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[2.314690] (mapping) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.315080] (mapping) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.315535] (mapping) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.340911] (mapping) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[2.341264] (mapping) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.351021] (mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.360467] (mapping) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.401250] (mapping) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[2.401600] (mapping) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.407121] (-) TimerEvent: {}
+[2.410935] (mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.431634] (mapping) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.434259] (mapping) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.434655] (mapping) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.436227] (mapping) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.436618] (mapping) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.438133] (mapping) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.438611] (mapping) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.440176] (mapping) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.440601] (mapping) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.442116] (mapping) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.442459] (mapping) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.443957] (mapping) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.444378] (mapping) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.444790] (mapping) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[2.445135] (mapping) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.445650] (mapping) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[2.445868] (mapping) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.447350] (mapping) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.447823] (mapping) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.449327] (mapping) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.449833] (mapping) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.451322] (mapping) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.451661] (mapping) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.453158] (mapping) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.453890] (mapping) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.455769] (mapping) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.456402] (mapping) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.458035] (mapping) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.458439] (mapping) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.459999] (mapping) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.460543] (mapping) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.462069] (mapping) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.462629] (mapping) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.464103] (mapping) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.464586] (mapping) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.466147] (mapping) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.466785] (mapping) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.468380] (mapping) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.468731] (mapping) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.470342] (mapping) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.471694] (mapping) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.472146] (mapping) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[2.472979] (mapping) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.473473] (mapping) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[2.473769] (mapping) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.475431] (mapping) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.475885] (mapping) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.477472] (mapping) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.479204] (mapping) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.10") \n'}
+[2.481199] (mapping) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[2.507265] (-) TimerEvent: {}
+[2.518952] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.529990] (mapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.607435] (-) TimerEvent: {}
+[2.666697] (mapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.707571] (-) TimerEvent: {}
+[2.713015] (mapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.807710] (-) TimerEvent: {}
+[2.885928] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.907834] (-) TimerEvent: {}
+[3.008350] (-) TimerEvent: {}
+[3.108898] (-) TimerEvent: {}
+[3.209344] (-) TimerEvent: {}
+[3.283959] (mapping) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.309495] (-) TimerEvent: {}
+[3.409957] (-) TimerEvent: {}
+[3.455244] (mapping) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.510079] (-) TimerEvent: {}
+[3.529547] (mapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.532179] (mapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.533612] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.610227] (-) TimerEvent: {}
+[3.644579] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.645306] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.710328] (-) TimerEvent: {}
+[3.761698] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.762796] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.810504] (-) TimerEvent: {}
+[3.859712] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.860470] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.910657] (-) TimerEvent: {}
+[3.978462] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.981808] (mapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.010804] (-) TimerEvent: {}
+[4.111265] (-) TimerEvent: {}
+[4.211743] (-) TimerEvent: {}
+[4.312199] (-) TimerEvent: {}
+[4.412677] (-) TimerEvent: {}
+[4.513044] (-) TimerEvent: {}
+[4.527707] (mapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.613165] (-) TimerEvent: {}
+[4.713591] (-) TimerEvent: {}
+[4.748901] (mapping) StdoutLine: {'line': b'-- Generating done\n'}
+[4.752361] (mapping) StdoutLine: {'line': b'-- Build files have been written to: /home/simteamq/Desktop/SEAL/mapping/build/mapping\n'}
+[4.769437] (mapping) CommandEnded: {'returncode': 0}
+[4.771230] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'build'}
+[4.773487] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simteamq/Desktop/SEAL/mapping/build/mapping', '--', '-j12', '-l12'], 'cwd': '/home/simteamq/Desktop/SEAL/mapping/build/mapping', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2695'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL'), ('TERM_PROGRAM_VERSION', '1.84.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4387'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:62579'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2730,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2730'), ('INVOCATION_ID', '3554c03e7d084a4eb946f4c3c01dbb30'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a927a7ff0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/mapping/build/mapping'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/opt/ros/foxy')]), 'shell': False}
+[4.813748] (-) TimerEvent: {}
+[4.843080] (mapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ROS_comms\x1b[0m\n'}
+[4.913880] (-) TimerEvent: {}
+[5.006826] (mapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ROS_comms.dir/src/ROS_comms.cpp.o\x1b[0m\n'}
+[5.013998] (-) TimerEvent: {}
+[5.114438] (-) TimerEvent: {}
+[5.214909] (-) TimerEvent: {}
+[5.315379] (-) TimerEvent: {}
+[5.415825] (-) TimerEvent: {}
+[5.516318] (-) TimerEvent: {}
+[5.616780] (-) TimerEvent: {}
+[5.717274] (-) TimerEvent: {}
+[5.817738] (-) TimerEvent: {}
+[5.918201] (-) TimerEvent: {}
+[6.018630] (-) TimerEvent: {}
+[6.119109] (-) TimerEvent: {}
+[6.219577] (-) TimerEvent: {}
+[6.320033] (-) TimerEvent: {}
+[6.420494] (-) TimerEvent: {}
+[6.521001] (-) TimerEvent: {}
+[6.621471] (-) TimerEvent: {}
+[6.721994] (-) TimerEvent: {}
+[6.822462] (-) TimerEvent: {}
+[6.922930] (-) TimerEvent: {}
+[7.023381] (-) TimerEvent: {}
+[7.123816] (-) TimerEvent: {}
+[7.224230] (-) TimerEvent: {}
+[7.324662] (-) TimerEvent: {}
+[7.425054] (-) TimerEvent: {}
+[7.525448] (-) TimerEvent: {}
+[7.625908] (-) TimerEvent: {}
+[7.726375] (-) TimerEvent: {}
+[7.826856] (-) TimerEvent: {}
+[7.927325] (-) TimerEvent: {}
+[8.027759] (-) TimerEvent: {}
+[8.128151] (-) TimerEvent: {}
+[8.228582] (-) TimerEvent: {}
+[8.328961] (-) TimerEvent: {}
+[8.429408] (-) TimerEvent: {}
+[8.529899] (-) TimerEvent: {}
+[8.630332] (-) TimerEvent: {}
+[8.730756] (-) TimerEvent: {}
+[8.831283] (-) TimerEvent: {}
+[8.931726] (-) TimerEvent: {}
+[9.032171] (-) TimerEvent: {}
+[9.132588] (-) TimerEvent: {}
+[9.233029] (-) TimerEvent: {}
+[9.333408] (-) TimerEvent: {}
+[9.433831] (-) TimerEvent: {}
+[9.534262] (-) TimerEvent: {}
+[9.634747] (-) TimerEvent: {}
+[9.735113] (-) TimerEvent: {}
+[9.835563] (-) TimerEvent: {}
+[9.936016] (-) TimerEvent: {}
+[10.036446] (-) TimerEvent: {}
+[10.136907] (-) TimerEvent: {}
+[10.237326] (-) TimerEvent: {}
+[10.337709] (-) TimerEvent: {}
+[10.438174] (-) TimerEvent: {}
+[10.538598] (-) TimerEvent: {}
+[10.639042] (-) TimerEvent: {}
+[10.739495] (-) TimerEvent: {}
+[10.839861] (-) TimerEvent: {}
+[10.940303] (-) TimerEvent: {}
+[11.040767] (-) TimerEvent: {}
+[11.141260] (-) TimerEvent: {}
+[11.241631] (-) TimerEvent: {}
+[11.342002] (-) TimerEvent: {}
+[11.442430] (-) TimerEvent: {}
+[11.542894] (-) TimerEvent: {}
+[11.643356] (-) TimerEvent: {}
+[11.743838] (-) TimerEvent: {}
+[11.844313] (-) TimerEvent: {}
+[11.944810] (-) TimerEvent: {}
+[12.045369] (-) TimerEvent: {}
+[12.145824] (-) TimerEvent: {}
+[12.246237] (-) TimerEvent: {}
+[12.346661] (-) TimerEvent: {}
+[12.447099] (-) TimerEvent: {}
+[12.547569] (-) TimerEvent: {}
+[12.648080] (-) TimerEvent: {}
+[12.748579] (-) TimerEvent: {}
+[12.849043] (-) TimerEvent: {}
+[12.949530] (-) TimerEvent: {}
+[13.050099] (-) TimerEvent: {}
+[13.150476] (-) TimerEvent: {}
+[13.250940] (-) TimerEvent: {}
+[13.351374] (-) TimerEvent: {}
+[13.451863] (-) TimerEvent: {}
+[13.552309] (-) TimerEvent: {}
+[13.652750] (-) TimerEvent: {}
+[13.753239] (-) TimerEvent: {}
+[13.853694] (-) TimerEvent: {}
+[13.954267] (-) TimerEvent: {}
+[14.054843] (-) TimerEvent: {}
+[14.155236] (-) TimerEvent: {}
+[14.255675] (-) TimerEvent: {}
+[14.356082] (-) TimerEvent: {}
+[14.456522] (-) TimerEvent: {}
+[14.556985] (-) TimerEvent: {}
+[14.657419] (-) TimerEvent: {}
+[14.757884] (-) TimerEvent: {}
+[14.858311] (-) TimerEvent: {}
+[14.958716] (-) TimerEvent: {}
+[15.059118] (-) TimerEvent: {}
+[15.159541] (-) TimerEvent: {}
+[15.259935] (-) TimerEvent: {}
+[15.360350] (-) TimerEvent: {}
+[15.460910] (-) TimerEvent: {}
+[15.561284] (-) TimerEvent: {}
+[15.661724] (-) TimerEvent: {}
+[15.762196] (-) TimerEvent: {}
+[15.862642] (-) TimerEvent: {}
+[15.963030] (-) TimerEvent: {}
+[16.063433] (-) TimerEvent: {}
+[16.163839] (-) TimerEvent: {}
+[16.264329] (-) TimerEvent: {}
+[16.364832] (-) TimerEvent: {}
+[16.465351] (-) TimerEvent: {}
+[16.565787] (-) TimerEvent: {}
+[16.666293] (-) TimerEvent: {}
+[16.766769] (-) TimerEvent: {}
+[16.867243] (-) TimerEvent: {}
+[16.967713] (-) TimerEvent: {}
+[17.068186] (-) TimerEvent: {}
+[17.168631] (-) TimerEvent: {}
+[17.269108] (-) TimerEvent: {}
+[17.369575] (-) TimerEvent: {}
+[17.470030] (-) TimerEvent: {}
+[17.570490] (-) TimerEvent: {}
+[17.670892] (-) TimerEvent: {}
+[17.772087] (-) TimerEvent: {}
+[17.872533] (-) TimerEvent: {}
+[17.973024] (-) TimerEvent: {}
+[18.073487] (-) TimerEvent: {}
+[18.173939] (-) TimerEvent: {}
+[18.274325] (-) TimerEvent: {}
+[18.374729] (-) TimerEvent: {}
+[18.475149] (-) TimerEvent: {}
+[18.575570] (-) TimerEvent: {}
+[18.676039] (-) TimerEvent: {}
+[18.776480] (-) TimerEvent: {}
+[18.876936] (-) TimerEvent: {}
+[18.977445] (-) TimerEvent: {}
+[19.077846] (-) TimerEvent: {}
+[19.178297] (-) TimerEvent: {}
+[19.278733] (-) TimerEvent: {}
+[19.379216] (-) TimerEvent: {}
+[19.479674] (-) TimerEvent: {}
+[19.580154] (-) TimerEvent: {}
+[19.680614] (-) TimerEvent: {}
+[19.781228] (-) TimerEvent: {}
+[19.881699] (-) TimerEvent: {}
+[19.982181] (-) TimerEvent: {}
+[20.082666] (-) TimerEvent: {}
+[20.183126] (-) TimerEvent: {}
+[20.283573] (-) TimerEvent: {}
+[20.384061] (-) TimerEvent: {}
+[20.484666] (-) TimerEvent: {}
+[20.585126] (-) TimerEvent: {}
+[20.685613] (-) TimerEvent: {}
+[20.786060] (-) TimerEvent: {}
+[20.886528] (-) TimerEvent: {}
+[20.986999] (-) TimerEvent: {}
+[21.087459] (-) TimerEvent: {}
+[21.188134] (-) TimerEvent: {}
+[21.288568] (-) TimerEvent: {}
+[21.389013] (-) TimerEvent: {}
+[21.489447] (-) TimerEvent: {}
+[21.589915] (-) TimerEvent: {}
+[21.690377] (-) TimerEvent: {}
+[21.790808] (-) TimerEvent: {}
+[21.891274] (-) TimerEvent: {}
+[21.991773] (-) TimerEvent: {}
+[22.092251] (-) TimerEvent: {}
+[22.192712] (-) TimerEvent: {}
+[22.293148] (-) TimerEvent: {}
+[22.393561] (-) TimerEvent: {}
+[22.493988] (-) TimerEvent: {}
+[22.594485] (-) TimerEvent: {}
+[22.695014] (-) TimerEvent: {}
+[22.795469] (-) TimerEvent: {}
+[22.895952] (-) TimerEvent: {}
+[22.996447] (-) TimerEvent: {}
+[23.096964] (-) TimerEvent: {}
+[23.197433] (-) TimerEvent: {}
+[23.297943] (-) TimerEvent: {}
+[23.398433] (-) TimerEvent: {}
+[23.498883] (-) TimerEvent: {}
+[23.599260] (-) TimerEvent: {}
+[23.699713] (-) TimerEvent: {}
+[23.800115] (-) TimerEvent: {}
+[23.900599] (-) TimerEvent: {}
+[24.001075] (-) TimerEvent: {}
+[24.101550] (-) TimerEvent: {}
+[24.202075] (-) TimerEvent: {}
+[24.302549] (-) TimerEvent: {}
+[24.402946] (-) TimerEvent: {}
+[24.503390] (-) TimerEvent: {}
+[24.603865] (-) TimerEvent: {}
+[24.704323] (-) TimerEvent: {}
+[24.804778] (-) TimerEvent: {}
+[24.905231] (-) TimerEvent: {}
+[25.005719] (-) TimerEvent: {}
+[25.106196] (-) TimerEvent: {}
+[25.206659] (-) TimerEvent: {}
+[25.307110] (-) TimerEvent: {}
+[25.407558] (-) TimerEvent: {}
+[25.508003] (-) TimerEvent: {}
+[25.608456] (-) TimerEvent: {}
+[25.708954] (-) TimerEvent: {}
+[25.809394] (-) TimerEvent: {}
+[25.909783] (-) TimerEvent: {}
+[26.010197] (-) TimerEvent: {}
+[26.110596] (-) TimerEvent: {}
+[26.211032] (-) TimerEvent: {}
+[26.311510] (-) TimerEvent: {}
+[26.411989] (-) TimerEvent: {}
+[26.512468] (-) TimerEvent: {}
+[26.612928] (-) TimerEvent: {}
+[26.713372] (-) TimerEvent: {}
+[26.813860] (-) TimerEvent: {}
+[26.914307] (-) TimerEvent: {}
+[27.014799] (-) TimerEvent: {}
+[27.115240] (-) TimerEvent: {}
+[27.215633] (-) TimerEvent: {}
+[27.316103] (-) TimerEvent: {}
+[27.416577] (-) TimerEvent: {}
+[27.516982] (-) TimerEvent: {}
+[27.617438] (-) TimerEvent: {}
+[27.717892] (-) TimerEvent: {}
+[27.818321] (-) TimerEvent: {}
+[27.918723] (-) TimerEvent: {}
+[28.019185] (-) TimerEvent: {}
+[28.119653] (-) TimerEvent: {}
+[28.220122] (-) TimerEvent: {}
+[28.320561] (-) TimerEvent: {}
+[28.421016] (-) TimerEvent: {}
+[28.521438] (-) TimerEvent: {}
+[28.621937] (-) TimerEvent: {}
+[28.722399] (-) TimerEvent: {}
+[28.822864] (-) TimerEvent: {}
+[28.923309] (-) TimerEvent: {}
+[29.023802] (-) TimerEvent: {}
+[29.124300] (-) TimerEvent: {}
+[29.212511] (mapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ROS_comms\x1b[0m\n'}
+[29.224412] (-) TimerEvent: {}
+[29.324801] (-) TimerEvent: {}
+[29.425263] (-) TimerEvent: {}
+[29.525624] (-) TimerEvent: {}
+[29.626031] (-) TimerEvent: {}
+[29.726446] (-) TimerEvent: {}
+[29.826867] (-) TimerEvent: {}
+[29.927352] (-) TimerEvent: {}
+[30.027823] (-) TimerEvent: {}
+[30.128298] (-) TimerEvent: {}
+[30.228764] (-) TimerEvent: {}
+[30.329188] (-) TimerEvent: {}
+[30.429639] (-) TimerEvent: {}
+[30.530106] (-) TimerEvent: {}
+[30.630570] (-) TimerEvent: {}
+[30.731137] (-) TimerEvent: {}
+[30.831732] (-) TimerEvent: {}
+[30.932330] (-) TimerEvent: {}
+[31.032854] (-) TimerEvent: {}
+[31.133519] (-) TimerEvent: {}
+[31.234107] (-) TimerEvent: {}
+[31.334591] (-) TimerEvent: {}
+[31.435176] (-) TimerEvent: {}
+[31.535674] (-) TimerEvent: {}
+[31.636152] (-) TimerEvent: {}
+[31.736666] (-) TimerEvent: {}
+[31.837100] (-) TimerEvent: {}
+[31.937552] (-) TimerEvent: {}
+[32.038049] (-) TimerEvent: {}
+[32.138555] (-) TimerEvent: {}
+[32.239036] (-) TimerEvent: {}
+[32.339538] (-) TimerEvent: {}
+[32.423081] (mapping) StdoutLine: {'line': b'[100%] Built target ROS_comms\n'}
+[32.439693] (-) TimerEvent: {}
+[32.443060] (mapping) CommandEnded: {'returncode': 0}
+[32.485557] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'install'}
+[32.503603] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simteamq/Desktop/SEAL/mapping/build/mapping'], 'cwd': '/home/simteamq/Desktop/SEAL/mapping/build/mapping', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2695'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL'), ('TERM_PROGRAM_VERSION', '1.84.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2511'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4387'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:62579'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2730,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2730'), ('INVOCATION_ID', '3554c03e7d084a4eb946f4c3c01dbb30'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9a927a7ff0.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/mapping/build/mapping'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/opt/ros/foxy')]), 'shell': False}
+[32.519574] (mapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.519967] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/lib/mapping/ROS_comms\n'}
+[32.527072] (mapping) StdoutLine: {'line': b'-- Set runtime path of "/home/simteamq/Desktop/SEAL/mapping/install/mapping/lib/mapping/ROS_comms" to ""\n'}
+[32.527565] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping\n'}
+[32.527940] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping\n'}
+[32.528177] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/ament_prefix_path.sh\n'}
+[32.528428] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/ament_prefix_path.dsv\n'}
+[32.528744] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/path.sh\n'}
+[32.529094] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/path.dsv\n'}
+[32.529381] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.bash\n'}
+[32.529747] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.sh\n'}
+[32.529994] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.zsh\n'}
+[32.530229] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.dsv\n'}
+[32.530465] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.dsv\n'}
+[32.530719] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/ament_index/resource_index/packages/mapping\n'}
+[32.530948] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/cmake/mappingConfig.cmake\n'}
+[32.531532] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/cmake/mappingConfig-version.cmake\n'}
+[32.532758] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.xml\n'}
+[32.533052] (mapping) CommandEnded: {'returncode': 0}
+[32.539866] (-) TimerEvent: {}
+[32.640187] (-) TimerEvent: {}
+[32.741112] (-) TimerEvent: {}
+[32.842024] (-) TimerEvent: {}
+[32.943168] (-) TimerEvent: {}
+[33.043975] (-) TimerEvent: {}
+[33.145384] (-) TimerEvent: {}
+[33.199453] (mapping) JobEnded: {'identifier': 'mapping', 'rc': 0}
+[33.200861] (-) EventReactorShutdown: {}

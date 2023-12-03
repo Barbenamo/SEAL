@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<robot name="Bzik">
+  <material name="black">
+    <color rgba="0.2 0.2 0.2 1"/>
+  </material>
+  <material name="blue">
+    <color rgba="0.1 0.1 0.5 1"/>
+  </material>
+
+  <!-- base_link relates to its projection on the ground by this offset:
+    <origin xyz="0 0 0.31" rpy="0 0 0"/>
+  -->
+
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://bzik.obj" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="black"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="5.5 2.25 2"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.25"/>
+      <inertia ixx="0" ixy="0" ixz="0"
+        iyy="0.000560417" iyz="0"
+        izz="0.000478833"/>
+    </inertial>
+  </link>
+
+  <!-- Center of Gravity link -->
+  <link name="nav_base"/>
+
+  <joint name="nav_base_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="nav_base"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+</robot>
+

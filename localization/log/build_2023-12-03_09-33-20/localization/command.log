@@ -1,0 +1,2 @@
+Invoking command in '/home/simteamq/Desktop/SEAL/localization/build/localization': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/localization -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/localization/install/localization
+Invoked command in '/home/simteamq/Desktop/SEAL/localization/build/localization' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/simteamq/Desktop/SEAL/localization -DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/localization/install/localization

@@ -68,7 +68,8 @@
         "typeinfo": "cpp",
         "variant": "cpp",
         "core": "cpp",
-        "numericaldiff": "cpp"
+        "numericaldiff": "cpp",
+        "filesystem": "cpp"
     },
     "C_Cpp.default.browse.path": []
 }
