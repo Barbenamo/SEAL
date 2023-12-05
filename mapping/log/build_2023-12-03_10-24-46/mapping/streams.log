@@ -1,0 +1,22 @@
+[0.379s] Invoking command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/mapping/build/mapping -- -j12 -l12
+[0.505s] [100%] Built target ROS_comms
+[0.524s] Invoked command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/simteamq/Desktop/SEAL/mapping/build/mapping -- -j12 -l12
+[0.587s] Invoking command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/mapping/build/mapping
+[0.600s] -- Install configuration: ""
+[0.600s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/lib/mapping/ROS_comms
+[0.600s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[0.600s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[0.601s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[0.601s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[0.601s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/path.sh
+[0.601s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/environment/path.dsv
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.bash
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.sh
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.zsh
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/local_setup.dsv
+[0.602s] -- Installing: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.dsv
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/ament_index/resource_index/packages/mapping
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[0.602s] -- Up-to-date: /home/simteamq/Desktop/SEAL/mapping/install/mapping/share/mapping/package.xml
+[0.604s] Invoked command in '/home/simteamq/Desktop/SEAL/mapping/build/mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/simteamq/Desktop/SEAL/mapping/build/mapping

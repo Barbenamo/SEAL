@@ -1,0 +1,21 @@
+[2.194s] Invoking command in '/home/simteamq/Desktop/SEAL/bzik': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/prefix_override:/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/urdf_tutorial_r2d2 build --build-base /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/build install --record /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/install.log --install-scripts $base/lib/urdf_tutorial_r2d2 --single-version-externally-managed
+[2.586s] running egg_info
+[2.587s] writing build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/PKG-INFO
+[2.588s] writing dependency_links to build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[2.588s] writing entry points to build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/entry_points.txt
+[2.588s] writing requirements to build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/requires.txt
+[2.589s] writing top-level names to build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/top_level.txt
+[2.643s] reading manifest file 'build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.644s] writing manifest file 'build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.644s] running build
+[2.645s] running build_py
+[2.645s] running install
+[2.646s] running install_lib
+[2.649s] running install_data
+[2.650s] running install_egg_info
+[2.653s] removing '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2-0.0.0-py3.8.egg-info' (and everything under it)
+[2.653s] Copying build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info to /home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2-0.0.0-py3.8.egg-info
+[2.654s] running install_scripts
+[2.680s] Installing state_publisher script to /home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[2.681s] writing list of installed files to '/home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/install.log'
+[2.715s] Invoked command in '/home/simteamq/Desktop/SEAL/bzik' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/prefix_override:/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/urdf_tutorial_r2d2 build --build-base /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/build install --record /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/install.log --install-scripts $base/lib/urdf_tutorial_r2d2 --single-version-externally-managed

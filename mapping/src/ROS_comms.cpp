@@ -4,8 +4,10 @@
 PointCloudMapper::PointCloudMapper() : Node("point_cloud_subscriber_node")
 {
     pcl::PointCloud<pcl::PointXYZ>::Ptr pcl_prev(new pcl::PointCloud<pcl::PointXYZ>);
-    subscription_ = this->create_subscription<sensor_msgs::msg::PointCloud2>(
-        "point_cloud_topic", 10, std::bind(&PointCloudMapper::pointCloudCallback, this, std::placeholders::_1));
+    subscription_1 = this->create_subscription<sensor_msgs::msg::PointCloud2>(
+        "point_cloud_topic", 10, std::bind(&PointCloudMapper::pointCloudCallback, this, std::placeholders::_1));   
+    subscription_2 = this->create_subscription<nav_msgs::msg::Odometry>(
+        "Odom", 10, std::bind(&OdomSubscriber::odom_callback, this, std::placeholders::_1))
     map_ = pcl::PointCloud<pcl::PointXYZ>::Ptr(new pcl::PointCloud<pcl::PointXYZ>());
     map_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("map_topic", 10);
 }
@@ -14,6 +16,13 @@ PointCloudMapper::~PointCloudMapper()
     std::cout << "Node killed, map saved" << std::endl;
     saveMap();
 }
+
+void PointCloudMapper::odom_callback(const nav_msgs::msg::Odometry msg){
+
+
+
+}
+
 
 void PointCloudMapper::pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg)
 {
@@ -101,7 +110,7 @@ void PointCloudMapper::publishMap()
     {
         sensor_msgs::msg::PointCloud2 map_msg;
         pcl::toROSMsg(*map_, map_msg);
-        map_msg.header.frame_id = "map_topic";
+        map_msg.header.frame_id = "map";
         map_msg.header.stamp = this->get_clock()->now();
         map_publisher_->publish(map_msg);
     }

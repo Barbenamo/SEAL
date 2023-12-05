@@ -1,0 +1,90 @@
+[4.575s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.576s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5e89807220>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5e89807220>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5e89827a30>)
+[4.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.820s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.820s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simteamq/Desktop/SEAL/bzik'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.821s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.839s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'urdf_tutorial_r2d2'
+[4.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.840s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.488s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/simteamq/Desktop/SEAL/bzik/install
+[5.588s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[5.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.867s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_args' from command line to 'None'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_target' from command line to 'None'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_cache' from command line to 'False'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_first' from command line to 'False'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'cmake_force_configure' from command line to 'False'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'ament_cmake_args' from command line to 'None'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'catkin_cmake_args' from command line to 'None'
+[5.868s] Level 5:colcon.colcon_core.verb:set package 'urdf_tutorial_r2d2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.868s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_tutorial_r2d2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2', 'merge_install': False, 'path': '/home/simteamq/Desktop/SEAL/bzik', 'symlink_install': False, 'test_result_base': None}
+[5.954s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.047s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.047s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simteamq/Desktop/SEAL/bzik' with build type 'ament_python'
+[6.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'ament_prefix_path')
+[6.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.ps1'
+[6.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.dsv'
+[6.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.sh'
+[6.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.936s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simteamq/Desktop/SEAL/bzik'
+[7.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simteamq/Desktop/SEAL/bzik': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/prefix_override:/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/urdf_tutorial_r2d2 build --build-base /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/build install --record /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/install.log --install-scripts $base/lib/urdf_tutorial_r2d2 --single-version-externally-managed
+[8.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simteamq/Desktop/SEAL/bzik' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/prefix_override:/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/urdf_tutorial_r2d2 build --build-base /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/build install --record /home/simteamq/Desktop/SEAL/bzik/build/urdf_tutorial_r2d2/install.log --install-scripts $base/lib/urdf_tutorial_r2d2 --single-version-externally-managed
+[8.569s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2' for CMake module files
+[8.569s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2' for CMake config files
+[8.570s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib'
+[8.570s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/bin'
+[8.570s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/pkgconfig/urdf_tutorial_r2d2.pc'
+[8.571s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/lib/python3.8/site-packages'
+[8.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_tutorial_r2d2', 'pythonpath')
+[8.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.ps1'
+[8.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.dsv'
+[8.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.sh'
+[8.648s] Level 1:colcon.colcon_core.environment:checking '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/bin'
+[8.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_tutorial_r2d2)
+[8.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.ps1'
+[8.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.dsv'
+[8.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.sh'
+[8.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.bash'
+[8.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.zsh'
+[8.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simteamq/Desktop/SEAL/bzik/install/urdf_tutorial_r2d2/share/colcon-core/packages/urdf_tutorial_r2d2)
+[8.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.729s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.729s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.840s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.868s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/bzik/install/local_setup.ps1'
+[8.945s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simteamq/Desktop/SEAL/bzik/install/_local_setup_util_ps1.py'
+[8.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/bzik/install/setup.ps1'
+[9.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/bzik/install/local_setup.sh'
+[9.020s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simteamq/Desktop/SEAL/bzik/install/_local_setup_util_sh.py'
+[9.021s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/bzik/install/setup.sh'
+[9.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/bzik/install/local_setup.bash'
+[9.107s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/bzik/install/setup.bash'
+[9.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simteamq/Desktop/SEAL/bzik/install/local_setup.zsh'
+[9.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simteamq/Desktop/SEAL/bzik/install/setup.zsh'

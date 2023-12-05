@@ -1,0 +1,738 @@
+[0.000000] (-) TimerEvent: {}
+[0.000440] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.000523] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict()}
+[0.000581] (urdf_tutorial_r2d2) JobQueued: {'identifier': 'urdf_tutorial_r2d2', 'dependencies': OrderedDict()}
+[0.000640] (localization) JobStarted: {'identifier': 'localization'}
+[0.099305] (-) TimerEvent: {}
+[0.200090] (-) TimerEvent: {}
+[0.300866] (mapping) JobStarted: {'identifier': 'mapping'}
+[0.301705] (-) TimerEvent: {}
+[0.402426] (-) TimerEvent: {}
+[0.503212] (-) TimerEvent: {}
+[0.584004] (urdf_tutorial_r2d2) JobStarted: {'identifier': 'urdf_tutorial_r2d2'}
+[0.603442] (-) TimerEvent: {}
+[0.705181] (-) TimerEvent: {}
+[0.805825] (-) TimerEvent: {}
+[0.906518] (-) TimerEvent: {}
+[0.943220] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.943924] (localization) Command: {'cmd': ['/usr/bin/cmake', '/home/simteamq/Desktop/SEAL/localization', '-DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/install/localization'], 'cwd': '/home/simteamq/Desktop/SEAL/build/localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2676'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10329'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:52081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2711,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2711'), ('INVOCATION_ID', 'fce559f8b5b7486dbd5bc2f0523ac61d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f2675c00-7d92-4610-9236-89bc02bf4b38'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/build/localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[0.949515] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'cmake'}
+[0.951161] (mapping) Command: {'cmd': ['/usr/bin/cmake', '/home/simteamq/Desktop/SEAL/mapping', '-DCMAKE_INSTALL_PREFIX=/home/simteamq/Desktop/SEAL/install/mapping'], 'cwd': '/home/simteamq/Desktop/SEAL/build/mapping', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2676'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10329'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:52081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2711,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2711'), ('INVOCATION_ID', 'fce559f8b5b7486dbd5bc2f0523ac61d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f2675c00-7d92-4610-9236-89bc02bf4b38'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/build/mapping'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[1.006816] (-) TimerEvent: {}
+[1.037032] (localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.058608] (mapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.106844] (-) TimerEvent: {}
+[1.117494] (localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.123285] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.157793] (mapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.167578] (mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.206939] (-) TimerEvent: {}
+[1.233528] (localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.236008] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.273351] (mapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.275710] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.307074] (-) TimerEvent: {}
+[1.348462] (localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.365244] (localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.365741] (localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.370050] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.375967] (mapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.395166] (mapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.396016] (mapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.401302] (mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.407295] (-) TimerEvent: {}
+[1.495971] (localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.498631] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.507771] (-) TimerEvent: {}
+[1.519794] (mapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.521511] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.608569] (-) TimerEvent: {}
+[1.615854] (localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.635468] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.637412] (localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.638906] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.648863] (mapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.672664] (localization) StdoutLine: {'line': b'-- Found PythonInterp: /home/simteamq/anaconda3/bin/python3 (found suitable version "3.11.4", minimum required is "3") \n'}
+[1.672845] (localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/simteamq/anaconda3/bin/python3\n'}
+[1.674586] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.677443] (mapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.679041] (mapping) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.708785] (-) TimerEvent: {}
+[1.714029] (mapping) StdoutLine: {'line': b'-- Found PythonInterp: /home/simteamq/anaconda3/bin/python3 (found suitable version "3.11.4", minimum required is "3") \n'}
+[1.715075] (mapping) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/simteamq/anaconda3/bin/python3\n'}
+[1.809003] (-) TimerEvent: {}
+[1.909618] (-) TimerEvent: {}
+[1.999614] (localization) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.009740] (-) TimerEvent: {}
+[2.021930] (localization) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[2.029045] (mapping) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.049874] (mapping) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[2.078043] (localization) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.078419] (localization) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.103173] (mapping) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.103569] (mapping) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[2.109829] (-) TimerEvent: {}
+[2.171354] (localization) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[2.190488] (mapping) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[2.208738] (localization) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.209919] (-) TimerEvent: {}
+[2.215619] (mapping) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[2.234490] (localization) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.237694] (mapping) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[2.301582] (localization) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.306767] (mapping) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[2.310051] (-) TimerEvent: {}
+[2.388024] (localization) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.388388] (localization) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.388593] (localization) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.388784] (localization) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.388968] (localization) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.389187] (localization) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.389375] (localization) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.389552] (localization) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.389734] (localization) StdoutLine: {'line': b'\n'}
+[2.390181] (localization) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.390375] (localization) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.390559] (localization) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.390737] (localization) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.390916] (localization) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.391095] (localization) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.391273] (localization) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.391450] (localization) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.391626] (localization) StdoutLine: {'line': b'\n'}
+[2.391983] (localization) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.392179] (localization) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.392511] (localization) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.392697] (localization) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.392878] (localization) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.393077] (localization) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.393273] (localization) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.393451] (localization) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.393628] (localization) StdoutLine: {'line': b'\n'}
+[2.393802] (localization) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.393975] (localization) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.394149] (localization) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.394324] (localization) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.394499] (localization) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.394704] (localization) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.394881] (localization) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.395192] (localization) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.395369] (localization) StdoutLine: {'line': b'\n'}
+[2.395544] (mapping) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[2.395735] (mapping) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[2.395912] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.396088] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.396265] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.396440] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.396732] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.396833] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.396931] (mapping) StdoutLine: {'line': b'\n'}
+[2.397029] (mapping) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[2.397158] (mapping) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[2.397266] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.397365] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.397462] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.397560] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.397656] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.397762] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.397868] (mapping) StdoutLine: {'line': b'\n'}
+[2.398137] (mapping) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[2.398237] (mapping) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[2.398335] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.398433] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.398530] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.398630] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.398727] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.398823] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.398922] (mapping) StdoutLine: {'line': b'\n'}
+[2.399018] (mapping) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[2.399114] (mapping) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[2.399211] (mapping) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[2.399309] (mapping) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[2.399406] (mapping) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[2.399503] (mapping) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[2.399600] (mapping) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[2.399696] (mapping) StdoutLine: {'line': b'but not all the files it references.\n'}
+[2.399793] (mapping) StdoutLine: {'line': b'\n'}
+[2.410186] (-) TimerEvent: {}
+[2.426642] (localization) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.428001] (mapping) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.432483] (urdf_tutorial_r2d2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/urdf_tutorial_r2d2', 'build', '--build-base', '/home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build', 'install', '--record', '/home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/install.log', '--install-scripts', '$base/lib/urdf_tutorial_r2d2', '--single-version-externally-managed'], 'cwd': '/home/simteamq/Desktop/SEAL/bzik', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'LANGUAGE': 'en_IL:en', 'USER': 'simteamq', 'SSH_AGENT_PID': '2676', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/simteamq', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/simteamq/Desktop/SEAL/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2496', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10329', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/simteamq/Desktop/SEAL/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'simteamq', 'JOURNAL_STREAM': '8:52081', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'simteamq', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_MODULES': 'overlay-scrollbar', 'WINDOWPATH': '2', 'PATH': '/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2711,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2711', 'INVOCATION_ID': 'fce559f8b5b7486dbd5bc2f0523ac61d', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_IL', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/simteamq/anaconda3/bin/python', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f2675c00-7d92-4610-9236-89bc02bf4b38', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/simteamq/anaconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/prefix_override:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'CONDA_PREFIX': '/home/simteamq/anaconda3', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization'}, 'shell': False}
+[2.448572] (mapping) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[2.450606] (localization) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[2.510318] (-) TimerEvent: {}
+[2.511285] (mapping) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.511671] (localization) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.595340] (mapping) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so  \n'}
+[2.595758] (mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.600360] (localization) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so  \n'}
+[2.600573] (localization) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.610424] (-) TimerEvent: {}
+[2.685641] (mapping) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[2.686017] (mapping) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.686321] (mapping) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.686616] (mapping) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.696124] (localization) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[2.696412] (localization) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.696718] (localization) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.696993] (localization) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[2.707513] (mapping) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[2.707812] (mapping) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.710516] (-) TimerEvent: {}
+[2.717097] (localization) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[2.717487] (localization) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[2.717692] (mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.726475] (localization) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.726752] (mapping) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.735787] (localization) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[2.768197] (mapping) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[2.768559] (mapping) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.777234] (mapping) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.778109] (localization) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[2.778350] (localization) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[2.787565] (localization) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[2.795321] (mapping) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.797103] (mapping) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.797479] (mapping) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.798928] (mapping) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.799246] (mapping) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.800714] (mapping) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.801071] (mapping) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.802605] (mapping) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.802997] (mapping) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.804460] (mapping) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.804823] (mapping) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.805734] (localization) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.806331] (mapping) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.806622] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running egg_info\n'}
+[2.806865] (mapping) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.807153] (mapping) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[2.807399] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info\n'}
+[2.807640] (urdf_tutorial_r2d2) StdoutLine: {'line': b'writing ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/PKG-INFO\n'}
+[2.807774] (localization) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.808170] (urdf_tutorial_r2d2) StdoutLine: {'line': b'writing dependency_links to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/dependency_links.txt\n'}
+[2.808314] (mapping) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.808445] (mapping) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[2.808700] (urdf_tutorial_r2d2) StdoutLine: {'line': b'writing entry points to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/entry_points.txt\n'}
+[2.808823] (urdf_tutorial_r2d2) StdoutLine: {'line': b'writing requirements to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/requires.txt\n'}
+[2.808941] (localization) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.809085] (urdf_tutorial_r2d2) StdoutLine: {'line': b'writing top-level names to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/top_level.txt\n'}
+[2.809296] (mapping) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.809488] (localization) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.809719] (localization) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.809941] (mapping) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.810147] (urdf_tutorial_r2d2) StdoutLine: {'line': b"writing manifest file '../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'\n"}
+[2.810371] (mapping) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.810578] (-) TimerEvent: {}
+[2.811275] (localization) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.811680] (localization) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.811879] (mapping) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.812406] (mapping) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.813135] (localization) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.813524] (localization) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.813985] (mapping) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.814403] (mapping) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.814976] (localization) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.815351] (localization) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.815890] (mapping) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.816507] (mapping) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.816837] (localization) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.817304] (localization) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.817782] (localization) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[2.818160] (mapping) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.818318] (localization) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.818577] (localization) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[2.818807] (mapping) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.819021] (localization) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.820264] (mapping) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.820525] (localization) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.820733] (mapping) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.820940] (localization) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.822286] (mapping) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.822517] (localization) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.822955] (mapping) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.823120] (localization) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.824400] (localization) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.824651] (mapping) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.824945] (localization) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.825136] (mapping) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.826325] (localization) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.826503] (mapping) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.826933] (mapping) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.827118] (localization) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.828500] (mapping) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.828691] (localization) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.829095] (mapping) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.829283] (localization) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.830605] (mapping) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.830835] (localization) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.831045] (mapping) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.831427] (localization) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.832593] (mapping) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.833279] (localization) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.833846] (mapping) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.834054] (localization) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.834329] (mapping) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[2.835053] (mapping) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.835437] (localization) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.835635] (mapping) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[2.835952] (mapping) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.836088] (localization) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.837490] (localization) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.837830] (mapping) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.838185] (localization) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.838384] (mapping) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.839622] (localization) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.839938] (mapping) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.840261] (localization) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.841528] (mapping) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.10") \n'}
+[2.841821] (localization) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.842217] (localization) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.843523] (mapping) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[2.843854] (localization) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.845101] (localization) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.845618] (localization) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[2.846320] (localization) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.846908] (localization) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[2.847185] (localization) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.848824] (localization) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.849309] (localization) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.850871] (localization) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.852660] (localization) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.10") \n'}
+[2.854591] (localization) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[2.856904] (urdf_tutorial_r2d2) StdoutLine: {'line': b"reading manifest file '../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'\n"}
+[2.857987] (urdf_tutorial_r2d2) StdoutLine: {'line': b"writing manifest file '../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'\n"}
+[2.858347] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running build\n'}
+[2.858593] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running build_py\n'}
+[2.858789] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build\n'}
+[2.858984] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build/lib\n'}
+[2.859138] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2\n'}
+[2.859286] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying urdf_tutorial_r2d2/state_publisher.py -> /home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2\n'}
+[2.859432] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying urdf_tutorial_r2d2/__init__.py -> /home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2\n'}
+[2.859576] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running install\n'}
+[2.859911] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running install_lib\n'}
+[2.861179] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2\n'}
+[2.861393] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying /home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2/state_publisher.py -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2\n'}
+[2.861592] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying /home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2/__init__.py -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2\n'}
+[2.862111] (urdf_tutorial_r2d2) StdoutLine: {'line': b'byte-compiling /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2/state_publisher.py to state_publisher.cpython-38.pyc\n'}
+[2.864409] (urdf_tutorial_r2d2) StdoutLine: {'line': b'byte-compiling /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2/__init__.py to __init__.cpython-38.pyc\n'}
+[2.864662] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running install_data\n'}
+[2.865267] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/ament_index\n'}
+[2.865556] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/ament_index/resource_index\n'}
+[2.865810] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages\n'}
+[2.866062] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying resource/urdf_tutorial_r2d2 -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages\n'}
+[2.866290] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying package.xml -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2\n'}
+[2.866679] (urdf_tutorial_r2d2) StdoutLine: {'line': b'creating /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch\n'}
+[2.866894] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying launch/demo.launch.py -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch\n'}
+[2.867085] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying urdf/r2d2.rviz -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2\n'}
+[2.867269] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying urdf/r2d2.urdf.xml -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2\n'}
+[2.867470] (urdf_tutorial_r2d2) StdoutLine: {'line': b'copying meshes/Bzik.stl -> /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2\n'}
+[2.875923] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.878902] (urdf_tutorial_r2d2) StdoutLine: {'line': b'Copying ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info to /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf_tutorial_r2d2-0.0.0-py3.8.egg-info\n'}
+[2.880132] (urdf_tutorial_r2d2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.882466] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.885856] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.894710] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.895147] (mapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.903635] (urdf_tutorial_r2d2) StdoutLine: {'line': b'Installing state_publisher script to /home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2\n'}
+[2.904028] (urdf_tutorial_r2d2) StdoutLine: {'line': b"writing list of installed files to '/home/simteamq/Desktop/SEAL/build/urdf_tutorial_r2d2/install.log'\n"}
+[2.910738] (-) TimerEvent: {}
+[2.931725] (urdf_tutorial_r2d2) CommandEnded: {'returncode': 0}
+[3.011429] (-) TimerEvent: {}
+[3.033131] (mapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.042406] (localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.085705] (mapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.090049] (localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.114819] (-) TimerEvent: {}
+[3.215758] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.216530] (-) TimerEvent: {}
+[3.232604] (urdf_tutorial_r2d2) JobEnded: {'identifier': 'urdf_tutorial_r2d2', 'rc': 0}
+[3.235216] (mapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.316681] (-) TimerEvent: {}
+[3.417138] (-) TimerEvent: {}
+[3.461702] (localization) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.517231] (-) TimerEvent: {}
+[3.550532] (localization) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.602272] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.604022] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.605139] (localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.617325] (-) TimerEvent: {}
+[3.665358] (mapping) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.717457] (-) TimerEvent: {}
+[3.727140] (localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.727693] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.817600] (-) TimerEvent: {}
+[3.838075] (mapping) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.850964] (localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.851706] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.917736] (-) TimerEvent: {}
+[3.927805] (mapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.930920] (mapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.932184] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.951145] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.951610] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.017862] (-) TimerEvent: {}
+[4.044651] (mapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.045348] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.068811] (localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.071114] (localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.118016] (-) TimerEvent: {}
+[4.164179] (mapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.165373] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.218153] (-) TimerEvent: {}
+[4.265279] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.265794] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.292412] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.318305] (-) TimerEvent: {}
+[4.387892] (mapping) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.389869] (mapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.418471] (-) TimerEvent: {}
+[4.432882] (localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.444067] (localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.445349] (localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/simteamq/Desktop/SEAL/localization/include;/home/simteamq/Desktop/SEAL/localization/include/localization\n'}
+[4.445626] (localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.456364] (localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.456633] (localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.458448] (localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.462763] (localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.466179] (localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.484044] (localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.484328] (localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.487846] (localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.495281] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.510662] (localization) StdoutLine: {'line': b'-- Generating done\n'}
+[4.513464] (localization) StdoutLine: {'line': b'-- Build files have been written to: /home/simteamq/Desktop/SEAL/build/localization\n'}
+[4.518572] (-) TimerEvent: {}
+[4.529532] (localization) CommandEnded: {'returncode': 0}
+[4.530759] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[4.531890] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simteamq/Desktop/SEAL/build/localization', '--', '-j12', '-l12'], 'cwd': '/home/simteamq/Desktop/SEAL/build/localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2676'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10329'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:52081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2711,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2711'), ('INVOCATION_ID', 'fce559f8b5b7486dbd5bc2f0523ac61d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f2675c00-7d92-4610-9236-89bc02bf4b38'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/build/localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[4.605455] (localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target odom_subscriber\x1b[0m\n'}
+[4.618712] (-) TimerEvent: {}
+[4.672663] (localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odom_subscriber.dir/src/odom_subscriber.cpp.o\x1b[0m\n'}
+[4.718861] (-) TimerEvent: {}
+[4.819369] (-) TimerEvent: {}
+[4.908044] (mapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.919465] (-) TimerEvent: {}
+[5.019874] (-) TimerEvent: {}
+[5.078298] (mapping) StdoutLine: {'line': b'-- Generating done\n'}
+[5.080612] (mapping) StdoutLine: {'line': b'-- Build files have been written to: /home/simteamq/Desktop/SEAL/build/mapping\n'}
+[5.095709] (mapping) CommandEnded: {'returncode': 0}
+[5.097445] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'build'}
+[5.098653] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/simteamq/Desktop/SEAL/build/mapping', '--', '-j12', '-l12'], 'cwd': '/home/simteamq/Desktop/SEAL/build/mapping', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2676'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10329'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:52081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2711,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2711'), ('INVOCATION_ID', 'fce559f8b5b7486dbd5bc2f0523ac61d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f2675c00-7d92-4610-9236-89bc02bf4b38'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/build/mapping'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[5.120036] (-) TimerEvent: {}
+[5.168201] (mapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ROS_comms\x1b[0m\n'}
+[5.220191] (-) TimerEvent: {}
+[5.310113] (mapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ROS_comms.dir/src/ROS_comms.cpp.o\x1b[0m\n'}
+[5.320330] (-) TimerEvent: {}
+[5.420779] (-) TimerEvent: {}
+[5.521285] (-) TimerEvent: {}
+[5.621772] (-) TimerEvent: {}
+[5.722250] (-) TimerEvent: {}
+[5.822730] (-) TimerEvent: {}
+[5.923221] (-) TimerEvent: {}
+[6.023691] (-) TimerEvent: {}
+[6.124209] (-) TimerEvent: {}
+[6.224759] (-) TimerEvent: {}
+[6.325292] (-) TimerEvent: {}
+[6.425801] (-) TimerEvent: {}
+[6.526288] (-) TimerEvent: {}
+[6.626865] (-) TimerEvent: {}
+[6.727332] (-) TimerEvent: {}
+[6.827844] (-) TimerEvent: {}
+[6.928306] (-) TimerEvent: {}
+[7.028769] (-) TimerEvent: {}
+[7.129295] (-) TimerEvent: {}
+[7.229819] (-) TimerEvent: {}
+[7.330327] (-) TimerEvent: {}
+[7.430824] (-) TimerEvent: {}
+[7.531349] (-) TimerEvent: {}
+[7.631859] (-) TimerEvent: {}
+[7.732339] (-) TimerEvent: {}
+[7.832847] (-) TimerEvent: {}
+[7.933435] (-) TimerEvent: {}
+[8.033833] (-) TimerEvent: {}
+[8.134436] (-) TimerEvent: {}
+[8.235050] (-) TimerEvent: {}
+[8.335577] (-) TimerEvent: {}
+[8.436039] (-) TimerEvent: {}
+[8.536513] (-) TimerEvent: {}
+[8.636921] (-) TimerEvent: {}
+[8.737287] (-) TimerEvent: {}
+[8.837778] (-) TimerEvent: {}
+[8.938269] (-) TimerEvent: {}
+[9.038763] (-) TimerEvent: {}
+[9.139275] (-) TimerEvent: {}
+[9.239751] (-) TimerEvent: {}
+[9.340277] (-) TimerEvent: {}
+[9.440659] (-) TimerEvent: {}
+[9.541168] (-) TimerEvent: {}
+[9.641674] (-) TimerEvent: {}
+[9.742167] (-) TimerEvent: {}
+[9.842682] (-) TimerEvent: {}
+[9.943181] (-) TimerEvent: {}
+[10.043680] (-) TimerEvent: {}
+[10.144130] (-) TimerEvent: {}
+[10.244577] (-) TimerEvent: {}
+[10.345177] (-) TimerEvent: {}
+[10.445690] (-) TimerEvent: {}
+[10.541245] (localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable odom_subscriber\x1b[0m\n'}
+[10.545793] (-) TimerEvent: {}
+[10.646348] (-) TimerEvent: {}
+[10.746868] (-) TimerEvent: {}
+[10.847357] (-) TimerEvent: {}
+[10.871728] (localization) StdoutLine: {'line': b'[100%] Built target odom_subscriber\n'}
+[10.891090] (localization) CommandEnded: {'returncode': 0}
+[10.932951] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[10.947690] (-) TimerEvent: {}
+[10.952508] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simteamq/Desktop/SEAL/build/localization'], 'cwd': '/home/simteamq/Desktop/SEAL/build/localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2676'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10329'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:52081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2711,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2711'), ('INVOCATION_ID', 'fce559f8b5b7486dbd5bc2f0523ac61d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f2675c00-7d92-4610-9236-89bc02bf4b38'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/build/localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[10.967015] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.967384] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/lib/localization/odom_subscriber\n'}
+[10.969494] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/simteamq/Desktop/SEAL/install/localization/lib/localization/odom_subscriber" to ""\n'}
+[10.969815] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[10.970083] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[10.970333] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[10.970537] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[10.970734] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/environment/path.sh\n'}
+[10.971029] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/environment/path.dsv\n'}
+[10.971235] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/local_setup.bash\n'}
+[10.971428] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/local_setup.sh\n'}
+[10.971614] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/local_setup.zsh\n'}
+[10.971804] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/local_setup.dsv\n'}
+[10.971991] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/package.dsv\n'}
+[10.972201] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[10.972357] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[10.972508] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[10.972658] (localization) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/localization/share/localization/package.xml\n'}
+[10.974781] (localization) CommandEnded: {'returncode': 0}
+[11.047919] (-) TimerEvent: {}
+[11.148777] (-) TimerEvent: {}
+[11.250008] (-) TimerEvent: {}
+[11.350973] (-) TimerEvent: {}
+[11.452569] (-) TimerEvent: {}
+[11.554010] (-) TimerEvent: {}
+[11.652040] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[11.654133] (-) TimerEvent: {}
+[11.754508] (-) TimerEvent: {}
+[11.854980] (-) TimerEvent: {}
+[11.955453] (-) TimerEvent: {}
+[12.055922] (-) TimerEvent: {}
+[12.156411] (-) TimerEvent: {}
+[12.256916] (-) TimerEvent: {}
+[12.357406] (-) TimerEvent: {}
+[12.457870] (-) TimerEvent: {}
+[12.558372] (-) TimerEvent: {}
+[12.658975] (-) TimerEvent: {}
+[12.759459] (-) TimerEvent: {}
+[12.859891] (-) TimerEvent: {}
+[12.960352] (-) TimerEvent: {}
+[13.060813] (-) TimerEvent: {}
+[13.161281] (-) TimerEvent: {}
+[13.261712] (-) TimerEvent: {}
+[13.362187] (-) TimerEvent: {}
+[13.462655] (-) TimerEvent: {}
+[13.563107] (-) TimerEvent: {}
+[13.663588] (-) TimerEvent: {}
+[13.764044] (-) TimerEvent: {}
+[13.864563] (-) TimerEvent: {}
+[13.965034] (-) TimerEvent: {}
+[14.065517] (-) TimerEvent: {}
+[14.165964] (-) TimerEvent: {}
+[14.266456] (-) TimerEvent: {}
+[14.366913] (-) TimerEvent: {}
+[14.467364] (-) TimerEvent: {}
+[14.567839] (-) TimerEvent: {}
+[14.668265] (-) TimerEvent: {}
+[14.768869] (-) TimerEvent: {}
+[14.869315] (-) TimerEvent: {}
+[14.969871] (-) TimerEvent: {}
+[15.070353] (-) TimerEvent: {}
+[15.170850] (-) TimerEvent: {}
+[15.271308] (-) TimerEvent: {}
+[15.371747] (-) TimerEvent: {}
+[15.472191] (-) TimerEvent: {}
+[15.572684] (-) TimerEvent: {}
+[15.673195] (-) TimerEvent: {}
+[15.773673] (-) TimerEvent: {}
+[15.874143] (-) TimerEvent: {}
+[15.974635] (-) TimerEvent: {}
+[16.075128] (-) TimerEvent: {}
+[16.175696] (-) TimerEvent: {}
+[16.276165] (-) TimerEvent: {}
+[16.376644] (-) TimerEvent: {}
+[16.477139] (-) TimerEvent: {}
+[16.577640] (-) TimerEvent: {}
+[16.678118] (-) TimerEvent: {}
+[16.778598] (-) TimerEvent: {}
+[16.879083] (-) TimerEvent: {}
+[16.979569] (-) TimerEvent: {}
+[17.080075] (-) TimerEvent: {}
+[17.180534] (-) TimerEvent: {}
+[17.281086] (-) TimerEvent: {}
+[17.381676] (-) TimerEvent: {}
+[17.482159] (-) TimerEvent: {}
+[17.582653] (-) TimerEvent: {}
+[17.683113] (-) TimerEvent: {}
+[17.783583] (-) TimerEvent: {}
+[17.884063] (-) TimerEvent: {}
+[17.984526] (-) TimerEvent: {}
+[18.084995] (-) TimerEvent: {}
+[18.185525] (-) TimerEvent: {}
+[18.286008] (-) TimerEvent: {}
+[18.386487] (-) TimerEvent: {}
+[18.486972] (-) TimerEvent: {}
+[18.587451] (-) TimerEvent: {}
+[18.687940] (-) TimerEvent: {}
+[18.788412] (-) TimerEvent: {}
+[18.888885] (-) TimerEvent: {}
+[18.989370] (-) TimerEvent: {}
+[19.089846] (-) TimerEvent: {}
+[19.190295] (-) TimerEvent: {}
+[19.290777] (-) TimerEvent: {}
+[19.391259] (-) TimerEvent: {}
+[19.491749] (-) TimerEvent: {}
+[19.592217] (-) TimerEvent: {}
+[19.692715] (-) TimerEvent: {}
+[19.793210] (-) TimerEvent: {}
+[19.893709] (-) TimerEvent: {}
+[19.994163] (-) TimerEvent: {}
+[20.094636] (-) TimerEvent: {}
+[20.195134] (-) TimerEvent: {}
+[20.295622] (-) TimerEvent: {}
+[20.396110] (-) TimerEvent: {}
+[20.496559] (-) TimerEvent: {}
+[20.597030] (-) TimerEvent: {}
+[20.697529] (-) TimerEvent: {}
+[20.798027] (-) TimerEvent: {}
+[20.898509] (-) TimerEvent: {}
+[20.999002] (-) TimerEvent: {}
+[21.099469] (-) TimerEvent: {}
+[21.199919] (-) TimerEvent: {}
+[21.300421] (-) TimerEvent: {}
+[21.400887] (-) TimerEvent: {}
+[21.501431] (-) TimerEvent: {}
+[21.601904] (-) TimerEvent: {}
+[21.702370] (-) TimerEvent: {}
+[21.802841] (-) TimerEvent: {}
+[21.903323] (-) TimerEvent: {}
+[22.003797] (-) TimerEvent: {}
+[22.104280] (-) TimerEvent: {}
+[22.204759] (-) TimerEvent: {}
+[22.305280] (-) TimerEvent: {}
+[22.405751] (-) TimerEvent: {}
+[22.506207] (-) TimerEvent: {}
+[22.606689] (-) TimerEvent: {}
+[22.707178] (-) TimerEvent: {}
+[22.807660] (-) TimerEvent: {}
+[22.908118] (-) TimerEvent: {}
+[23.008584] (-) TimerEvent: {}
+[23.109068] (-) TimerEvent: {}
+[23.209532] (-) TimerEvent: {}
+[23.310013] (-) TimerEvent: {}
+[23.410485] (-) TimerEvent: {}
+[23.510936] (-) TimerEvent: {}
+[23.611423] (-) TimerEvent: {}
+[23.711901] (-) TimerEvent: {}
+[23.812376] (-) TimerEvent: {}
+[23.912832] (-) TimerEvent: {}
+[24.013322] (-) TimerEvent: {}
+[24.113789] (-) TimerEvent: {}
+[24.214260] (-) TimerEvent: {}
+[24.314738] (-) TimerEvent: {}
+[24.415217] (-) TimerEvent: {}
+[24.515678] (-) TimerEvent: {}
+[24.616143] (-) TimerEvent: {}
+[24.716629] (-) TimerEvent: {}
+[24.817131] (-) TimerEvent: {}
+[24.917610] (-) TimerEvent: {}
+[25.018088] (-) TimerEvent: {}
+[25.118579] (-) TimerEvent: {}
+[25.219049] (-) TimerEvent: {}
+[25.319508] (-) TimerEvent: {}
+[25.420002] (-) TimerEvent: {}
+[25.520445] (-) TimerEvent: {}
+[25.620904] (-) TimerEvent: {}
+[25.721379] (-) TimerEvent: {}
+[25.821861] (-) TimerEvent: {}
+[25.922331] (-) TimerEvent: {}
+[26.022784] (-) TimerEvent: {}
+[26.123255] (-) TimerEvent: {}
+[26.223690] (-) TimerEvent: {}
+[26.324151] (-) TimerEvent: {}
+[26.424615] (-) TimerEvent: {}
+[26.525086] (-) TimerEvent: {}
+[26.625566] (-) TimerEvent: {}
+[26.726019] (-) TimerEvent: {}
+[26.826491] (-) TimerEvent: {}
+[26.926915] (-) TimerEvent: {}
+[27.027373] (-) TimerEvent: {}
+[27.127848] (-) TimerEvent: {}
+[27.228434] (-) TimerEvent: {}
+[27.328901] (-) TimerEvent: {}
+[27.429367] (-) TimerEvent: {}
+[27.529819] (-) TimerEvent: {}
+[27.630322] (-) TimerEvent: {}
+[27.730804] (-) TimerEvent: {}
+[27.831256] (-) TimerEvent: {}
+[27.854599] (mapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ROS_comms\x1b[0m\n'}
+[27.931387] (-) TimerEvent: {}
+[28.031854] (-) TimerEvent: {}
+[28.132298] (-) TimerEvent: {}
+[28.232775] (-) TimerEvent: {}
+[28.333279] (-) TimerEvent: {}
+[28.433752] (-) TimerEvent: {}
+[28.534215] (-) TimerEvent: {}
+[28.634680] (-) TimerEvent: {}
+[28.735183] (-) TimerEvent: {}
+[28.835675] (-) TimerEvent: {}
+[28.936139] (-) TimerEvent: {}
+[29.036568] (-) TimerEvent: {}
+[29.137177] (-) TimerEvent: {}
+[29.237710] (-) TimerEvent: {}
+[29.338089] (-) TimerEvent: {}
+[29.438542] (-) TimerEvent: {}
+[29.538983] (-) TimerEvent: {}
+[29.639414] (-) TimerEvent: {}
+[29.739842] (-) TimerEvent: {}
+[29.840278] (-) TimerEvent: {}
+[29.940741] (-) TimerEvent: {}
+[30.041239] (-) TimerEvent: {}
+[30.141709] (-) TimerEvent: {}
+[30.242150] (-) TimerEvent: {}
+[30.342624] (-) TimerEvent: {}
+[30.443118] (-) TimerEvent: {}
+[30.543565] (-) TimerEvent: {}
+[30.644000] (-) TimerEvent: {}
+[30.744468] (-) TimerEvent: {}
+[30.844924] (-) TimerEvent: {}
+[30.876506] (mapping) StdoutLine: {'line': b'[100%] Built target ROS_comms\n'}
+[30.895093] (mapping) CommandEnded: {'returncode': 0}
+[30.939059] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'install'}
+[30.942193] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/simteamq/Desktop/SEAL/build/mapping'], 'cwd': '/home/simteamq/Desktop/SEAL/build/mapping', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_IL:en'), ('USER', 'simteamq'), ('SSH_AGENT_PID', '2676'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/simteamq'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/simteamq/Desktop/SEAL/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2496'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10329'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'simteamq'), ('JOURNAL_STREAM', '8:52081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'simteamq'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('WINDOWPATH', '2'), ('PATH', '/home/simteamq/anaconda3/bin:/home/simteamq/anaconda3/condabin:/opt/ros/foxy/bin:/home/simteamq/.pycharm/bin:/home/simteamq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rlbsimteamq-HP-Z840:@/tmp/.ICE-unix/2711,unix/rlbsimteamq-HP-Z840:/tmp/.ICE-unix/2711'), ('INVOCATION_ID', 'fce559f8b5b7486dbd5bc2f0523ac61d'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/simteamq/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:f2675c00-7d92-4610-9236-89bc02bf4b38'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/simteamq/Desktop/SEAL/build/mapping'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/simteamq/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/simteamq/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/simteamq/Desktop/SEAL/install/mapping:/home/simteamq/Desktop/SEAL/install/localization:/home/simteamq/Desktop/SEAL/install/urdf_tutorial_r2d2:/opt/ros/foxy')]), 'shell': False}
+[30.945163] (-) TimerEvent: {}
+[30.955545] (mapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.955856] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/lib/mapping/ROS_comms\n'}
+[30.964068] (mapping) StdoutLine: {'line': b'-- Set runtime path of "/home/simteamq/Desktop/SEAL/install/mapping/lib/mapping/ROS_comms" to ""\n'}
+[30.964415] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping\n'}
+[30.964745] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping\n'}
+[30.965001] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/environment/ament_prefix_path.sh\n'}
+[30.965261] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/environment/ament_prefix_path.dsv\n'}
+[30.965539] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/environment/path.sh\n'}
+[30.965760] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/environment/path.dsv\n'}
+[30.965976] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/local_setup.bash\n'}
+[30.966192] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/local_setup.sh\n'}
+[30.966414] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/local_setup.zsh\n'}
+[30.966632] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/local_setup.dsv\n'}
+[30.966876] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/package.dsv\n'}
+[30.967095] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/ament_index/resource_index/packages/mapping\n'}
+[30.967273] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/cmake/mappingConfig.cmake\n'}
+[30.967449] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/cmake/mappingConfig-version.cmake\n'}
+[30.967621] (mapping) StdoutLine: {'line': b'-- Installing: /home/simteamq/Desktop/SEAL/install/mapping/share/mapping/package.xml\n'}
+[30.969684] (mapping) CommandEnded: {'returncode': 0}
+[31.045322] (-) TimerEvent: {}
+[31.145917] (-) TimerEvent: {}
+[31.246649] (-) TimerEvent: {}
+[31.347513] (-) TimerEvent: {}
+[31.448386] (-) TimerEvent: {}
+[31.549893] (-) TimerEvent: {}
+[31.605382] (mapping) JobEnded: {'identifier': 'mapping', 'rc': 0}
+[31.606783] (-) EventReactorShutdown: {}
