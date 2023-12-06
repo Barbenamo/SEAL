@@ -6,8 +6,10 @@ PointCloudMapper::PointCloudMapper() : Node("point_cloud_subscriber_node")
     pcl::PointCloud<pcl::PointXYZ>::Ptr pcl_prev(new pcl::PointCloud<pcl::PointXYZ>);
     subscription_1 = this->create_subscription<sensor_msgs::msg::PointCloud2>(
         "point_cloud_topic", 10, std::bind(&PointCloudMapper::pointCloudCallback, this, std::placeholders::_1));   
+
     subscription_2 = this->create_subscription<nav_msgs::msg::Odometry>(
-        "Odom", 10, std::bind(&OdomSubscriber::odom_callback, this, std::placeholders::_1))
+        "Odom", 10, std::bind(&PointCloudMapper::odom_callback, this, std::placeholders::_1));
+
     map_ = pcl::PointCloud<pcl::PointXYZ>::Ptr(new pcl::PointCloud<pcl::PointXYZ>());
     map_publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud2>("map_topic", 10);
 }
@@ -17,10 +19,13 @@ PointCloudMapper::~PointCloudMapper()
     saveMap();
 }
 
-void PointCloudMapper::odom_callback(const nav_msgs::msg::Odometry msg){
-    
-
-
+void PointCloudMapper::odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg){
+    float pose_array[3] = {msg->pose.pose.position.x, msg->pose.pose.position.y, msg->pose.pose.position.z};
+    float ori_array[3] = {msg->pose.pose.orientation.x, msg->pose.pose.orientation.y, msg->pose.pose.orientation.z};
+    std::cout << "-----------Position----------" <<std::endl;
+    std::cout <<"x: "<< pose_array[0] <<" y: " << pose_array[1] <<" z: "<< pose_array[2] << std::endl;
+    std::cout <<"-----------Rotation----------" << std::endl;
+    std::cout <<"x: "<< ori_array[0] <<" y: "<< ori_array[1] <<" z: "<< ori_array[2] << std::endl;
 }
 
 
@@ -48,6 +53,7 @@ void PointCloudMapper::pointCloudCallback(const sensor_msgs::msg::PointCloud2::S
         pcl::IterativeClosestPoint<pcl::PointXYZ, pcl::PointXYZ> icp;
         pcl::transformPointCloud(*current_cloud, *current_cloud, track_matrix);
         icp.setInputSource(current_cloud);
+        // icp.setInputTarget(map_);
         icp.setInputTarget(map_);
         icp.setMaxCorrespondenceDistance(0.6);
         icp.setTransformationEpsilon(1e-5);
@@ -64,9 +70,9 @@ void PointCloudMapper::pointCloudCallback(const sensor_msgs::msg::PointCloud2::S
             *map_ += *aligned_cloud;
             publishMap(); // Publish the map to a ROS topic
             track_matrix = track_matrix * icp.getFinalTransformation();
-            std::cout << "\n"
-                      << track_matrix << std::endl;
-            // downsampleMap();
+            // std::cout << "\n"
+            //           << track_matrix << std::endl;
+            // // downsampleMap();
         }
         else
         {

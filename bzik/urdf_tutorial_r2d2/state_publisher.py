@@ -59,9 +59,9 @@ class StatePublisher(Node):
             # f"z = {msg.pose.pose.position.z}"
         # )
 
-        self.get_logger().info(f"orientation x: {msg.pose.pose.orientation.x},"
-                                f"orientation y: {msg.pose.pose.orientation.y},"
-                                f"orientation z: {msg.pose.pose.orientation.z}")
+        self.get_logger().info(f"position x: {msg.pose.pose.position.x},"
+                                f"position y: {msg.pose.pose.position.y},"
+                                f"position z: {msg.pose.pose.position.z}")
 
         
         pass

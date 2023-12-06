@@ -10,6 +10,7 @@
 #include <pcl/point_types.h>
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/point_cloud2.hpp"
+#include "nav_msgs/msg/odometry.hpp"
 #include <pcl/PCLPointCloud2.h> // Include for pcl::PCLPointCloud2
 #include <interactive_icp.h>
 #include <pcl/console/time.h> // TicToc
@@ -23,9 +24,11 @@
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/filters/extract_indices.h>
 
+
 class PointCloudMapper : public rclcpp::Node {
 
-    rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_;
+    rclcpp::Subscription<sensor_msgs::msg::PointCloud2>::SharedPtr subscription_1;
+    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr subscription_2;
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr map_publisher_;
     pcl::PointCloud<pcl::PointXYZ>::Ptr previous_cloud_;
     pcl::PointCloud<pcl::PointXYZ>::Ptr map_;
@@ -36,6 +39,7 @@ public:
     ~PointCloudMapper();
 
 private:
+    void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
     void pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg);
     void saveMap();
     void publishMap();

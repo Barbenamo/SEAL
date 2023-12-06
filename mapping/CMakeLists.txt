@@ -34,6 +34,7 @@ add_executable(ROS_comms
 ament_target_dependencies(ROS_comms 
   rclcpp 
   sensor_msgs 
+  nav_msgs
   PCL 
 )
 target_link_libraries(ROS_comms 
